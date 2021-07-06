@@ -1,0 +1,23 @@
+## Default
+baseURL = "https://bykoga.com/"
+theme = "visual-theme"
+
+## Localization
+
+## Pages
+# disableKinds = ["taxonomy"]
+# ignoreErrors = ["error-disable-taxonomy"]
+
+## Media
+# https://www.webfx.com/tools/emoji-cheat-sheet/
+enableEmoji = true
+
+[markup.goldmark.renderer]
+    unsafe= true
+
+[Taxonomies]
+    category = "categories"
+    tag = "tags"
+
+## Pagination
+paginate = 2

@@ -1,0 +1,107 @@
+<header class="navbar rounded fixed-top d-flex justify-content-center p-0">
+    <div class="rounded navbar-expand-lg pagination d-flex justify-content-center">
+        <div class="container-fluid d-flex align-items-center p-0">
+            <a class="d-flex justify-content-center align-items-center neu neu-primary text-primary rounded-pill" style="height: 48px; width: 48px" href="{{ .Site.Language.Params.home }}">
+                <img src="/logo.png" alt="" width="32" height="32">
+            </a>
+            <span class="plx-1"></span>
+            <ul class="navbar-nav">
+                {{ range .Site.Languages }}
+                {{ if eq . $.Site.Language }}
+                <li class="nav-item dropdown rounded neu plx-1">
+                    <a role="button" class="nav-link text-primary dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false" aria-label='{{ i18n " ariaLanguage" }}{{ .LanguageName }}'>
+                        {{ .LanguageName }}
+                    </a>
+                    {{ end }}
+                    {{ end }}
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        {{ range $.Translations }}
+                        <li>
+                            <a title="{{ .Language.LanguageName }}" class="dropdown-item" href="{{ .Permalink }}"
+                                aria-label='{{ i18n " ariaTranslation" }}{{ .Language.LanguageName }}'>
+                                {{ .Language.LanguageName }}
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+            </ul>
+            <span class="plx-1"></span>
+            <a class="navbar-toggler btn neu" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span><code class="text-primary"> ::: </code></span>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav text-end">
+                    {{- $currentPage := . -}}
+                    {{ range sort .Site.Menus.main "Weight" -}}
+                    {{ $isMenuCurrent := eq (.URL | relLangURL) $currentPage.RelPermalink }}
+                    {{ if .HasChildren }}
+                    <li class="nav-item dropdown rounded neu plx-1">
+                        <a role="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            {{ .Name }}
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu text-end" aria-labelledby="navbarDropdown">
+                            {{ range sort .Children "Weight" }}
+                            <li>
+                                <a class="dropdown-item" href="{{ .URL | absLangURL }}">
+                                    {{ .Name }}
+                                </a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </li>
+                    <span class="plx-1"></span>
+                    {{ else }}
+                    <li class='nav-item'>
+                        <a class="nav-link plx-1 rounded neu {{ if $isMenuCurrent }}active{{ end }}" href="{{ .URL | absLangURL }}">
+                            {{ .Name }}
+                        </a>
+                    </li>
+                    <span class="plx-1"></span>
+                    {{ end }}
+
+                    {{- end }}
+
+                    <!-- Categories! -->
+                    <li class="nav-item dropdown rounded neu plx-1">
+                        <a role="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            {{ i18n "categories" | humanize }}
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu text-end" aria-labelledby="navbarDropdown">
+                            {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+                            <li>
+                                <a class="dropdown-item" href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">
+                                    {{ $name | humanize }}
+                                </a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </li>
+
+                    <span class="plx-1"></span>
+
+                    <!-- Tags! -->
+                    <li class="nav-item dropdown rounded neu plx-1">
+                        <a role="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            {{ i18n "tags" | humanize }}
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu text-end" aria-labelledby="navbarDropdown">
+                            {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+                            <li>
+                                <a class="dropdown-item" href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">
+                                    {{ $name | humanize }}
+                                </a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div id="main">

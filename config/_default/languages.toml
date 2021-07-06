@@ -1,0 +1,25 @@
+[pt-br]
+    home = "/pt-br"
+    LanguageName = "pt-br"
+    title = "by.koga"
+    weight = 2
+    dateFormat = "15:04 - 02/01/06"
+    contentDir = "content/portugues"
+    [pt-br.menu]    
+        [[pt-br.menu.main]]
+            weight = 0
+            name = "Sobre"
+            url = "/sobre"
+
+[en]
+    home = "/en"
+    LanguageName = "en"
+    title = "by.koga"
+    weight = 1
+    dateFormat = "15:04 - Jan 2, 06"
+    contentDir = "content/english"
+    [en.menu]
+        [[en.menu.main]]
+            weight = 0
+            name = "About"
+            url = "/about"

@@ -1,0 +1,11 @@
+{{ $pages := (.Paginator 4).Pages }}
+
+<div class="paginator">
+    <div class="gallery">
+        {{ range $page := $pages }}
+        {{ partial "post-preview.html" . }}
+        {{ end }}
+    </div>
+</div>
+
+{{ partial "pagination.html" . }}
