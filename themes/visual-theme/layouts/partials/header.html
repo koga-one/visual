@@ -10,17 +10,17 @@
                 {{ if eq . $.Site.Language }}
                 <li class="nav-item dropdown rounded neu plx-1">
                     <a role="button" class="nav-link text-primary dropdown-toggle" data-bs-toggle="dropdown"
-                        aria-expanded="false" aria-label='{{ i18n " ariaLanguage" }}{{ .LanguageName }}'>
+                        aria-expanded="false" aria-label='{{ T " ariaLanguage" }}{{ .LanguageName }}'>
                         {{ .LanguageName }}
                     </a>
                     {{ end }}
                     {{ end }}
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                         {{ range $.Translations }}
                         <li>
                             <a title="{{ .Language.LanguageName }}" class="dropdown-item" href="{{ .Permalink }}"
-                                aria-label='{{ i18n " ariaTranslation" }}{{ .Language.LanguageName }}'>
-                                {{ .Language.LanguageName }}
+                                aria-label='{{ T " ariaTranslation" }}{{ .Language.LanguageName }}'>
+                                {{ .Language.LanguageName | lower }}
                             </a>
                         </li>
                         {{ end }}
@@ -41,13 +41,13 @@
                     {{ if .HasChildren }}
                     <li class="nav-item dropdown rounded neu plx-1">
                         <a role="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                            {{ .Name }}
+                            {{ .Name | lower }}
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end dropdown-menu text-end" aria-labelledby="navbarDropdown">
                             {{ range sort .Children "Weight" }}
                             <li>
                                 <a class="dropdown-item" href="{{ .URL | absLangURL }}">
-                                    {{ .Name }}
+                                    {{ .Name | lower }}
                                 </a>
                             </li>
                             {{ end }}
@@ -57,7 +57,7 @@
                     {{ else }}
                     <li class='nav-item'>
                         <a class="nav-link plx-1 rounded neu {{ if $isMenuCurrent }}active{{ end }}" href="{{ .URL | absLangURL }}">
-                            {{ .Name }}
+                            {{ .Name | lower }}
                         </a>
                     </li>
                     <span class="plx-1"></span>
@@ -68,13 +68,13 @@
                     <!-- Categories! -->
                     <li class="nav-item dropdown rounded neu plx-1">
                         <a role="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                            {{ i18n "categories" | humanize }}
+                            {{ T "categories" | lower }}
                         </a>
-                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu text-end" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu dropdown-menu-end text-end" aria-labelledby="navbarDropdown">
                             {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
                             <li>
                                 <a class="dropdown-item" href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">
-                                    {{ $name | humanize }}
+                                    {{ $name | lower }}
                                 </a>
                             </li>
                             {{ end }}
@@ -86,13 +86,13 @@
                     <!-- Tags! -->
                     <li class="nav-item dropdown rounded neu plx-1">
                         <a role="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                            {{ i18n "tags" | humanize }}
+                            {{ T "tags" | lower }}
                         </a>
-                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu text-end" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu dropdown-menu-end text-end" aria-labelledby="navbarDropdown">
                             {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
                             <li>
                                 <a class="dropdown-item" href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">
-                                    {{ $name | humanize }}
+                                    {{ $name | lower }}
                                 </a>
                             </li>
                             {{ end }}

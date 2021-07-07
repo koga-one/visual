@@ -2,7 +2,7 @@ $post-row-1: calc(100vmin - #{$planck} * 4);
 $post-column-1: calc(100vmin - #{$planck} * 4);
 $gallery-size-1: calc(100vmin - #{$planck} * 4);
 
-$post-row-2: calc(100vh - #{$planck} * 14);
+$post-row-2: calc(100vh - #{$planck} * 4);
 $gallery-size-2: calc(100vw - #{$planck} * 4);
 
 .gallery {
@@ -40,14 +40,14 @@ $gallery-size-2: calc(100vw - #{$planck} * 4);
 .gallery-single-link {
     position: absolute;
     right: $planck * 2;
-    bottom: $planck * 2;
+    bottom: $planck * 10;
     
     font-size: larger;
     font-weight: 900;
 }
 
 .paginator {
-    min-height: calc(100vh - $planck * 12);
+    min-height: calc(100vh - #{$planck} * 12);
 }
 
 .pagination {
@@ -72,6 +72,10 @@ $gallery-size-2: calc(100vw - #{$planck} * 4);
 .navbar-collapse {
     margin-left: $planck * 2;
 
+    @include media-breakpoint-up(md) {
+        margin-left: $planck * 0;
+    }
+
     .nav-item {
         margin: $planck 0;
     }
@@ -79,7 +83,6 @@ $gallery-size-2: calc(100vw - #{$planck} * 4);
 
 #footer {
     margin-top: $planck * 2;
-    background-color: $gray-200;
     min-height: $planck * 20;
 
     z-index: 1000;
@@ -89,4 +92,21 @@ $gallery-size-2: calc(100vw - #{$planck} * 4);
     position: sticky;
 
     bottom: 0;
+}
+
+.page {
+    min-height: calc(100vh - #{$planck} * 10);
+}
+
+#page-title {
+    line-height: $planck * 40;
+    font-size: $planck * 45;
+}
+
+#page-subtitle {
+
+}
+
+.single {
+    min-height: calc(100vh - #{$planck} * 10);
 }

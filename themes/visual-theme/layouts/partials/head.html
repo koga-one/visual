@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else }}website by.koga!{{ end }}"/>
+    <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else }}website made by.koga{{ end }}"/>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,8 +13,9 @@
 
     {{ $mystyles := resources.Get "mystyles.scss" | resources.ToCSS (dict "outputStyle" "compressed") | fingerprint }}
     <link rel="stylesheet" href="{{ $mystyles.Permalink }}">
-
-    {{ $title := print .Site.Title " | " .Title }}
+    
+    {{ $pageTitle := .Title | lower }}
+    {{ $title := print $pageTitle " " .Site.Title  }}
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <title>{{ $title }}</title>
 </head>

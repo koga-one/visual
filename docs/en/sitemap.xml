@@ -2,20 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://bykoga.com/test4/</loc>
-    <lastmod>2021-06-25T10:07:27-03:00</lastmod>
+    <loc>https://bykoga.com/categories/academic/</loc>
+    <lastmod>2021-07-06T11:35:38-03:00</lastmod>
   </url><url>
-    <loc>https://bykoga.com/test3/</loc>
-    <lastmod>2021-06-25T10:07:16-03:00</lastmod>
-  </url><url>
-    <loc>https://bykoga.com/test2/</loc>
-    <lastmod>2021-06-25T10:07:07-03:00</lastmod>
-  </url><url>
-    <loc>https://bykoga.com/test1/</loc>
-    <lastmod>2021-06-25T10:06:53-03:00</lastmod>
+    <loc>https://bykoga.com/tags/announcement/</loc>
+    <lastmod>2021-07-06T11:35:38-03:00</lastmod>
   </url><url>
     <loc>https://bykoga.com/categories/</loc>
-    <lastmod>2021-06-24T14:26:16-03:00</lastmod>
+    <lastmod>2021-07-06T11:35:38-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
@@ -27,34 +21,11 @@
                 href="https://bykoga.com/categories/"
                 />
   </url><url>
-    <loc>https://bykoga.com/tags/hello/</loc>
-    <lastmod>2021-06-24T14:26:16-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://bykoga.com/pt-br/tags/hello/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bykoga.com/tags/hello/"
-                />
-  </url><url>
-    <loc>https://bykoga.com/categories/retro/</loc>
-    <lastmod>2021-06-24T14:26:16-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://bykoga.com/pt-br/categories/retro/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bykoga.com/categories/retro/"
-                />
+    <loc>https://bykoga.com/academic/georgia-tech/</loc>
+    <lastmod>2021-07-06T11:35:38-03:00</lastmod>
   </url><url>
     <loc>https://bykoga.com/tags/</loc>
-    <lastmod>2021-06-24T14:26:16-03:00</lastmod>
+    <lastmod>2021-07-06T11:35:38-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
@@ -66,31 +37,43 @@
                 href="https://bykoga.com/tags/"
                 />
   </url><url>
-    <loc>https://bykoga.com/tags/typography/</loc>
-    <lastmod>2021-06-24T14:26:16-03:00</lastmod>
+    <loc>https://bykoga.com/tags/university/</loc>
+    <lastmod>2021-07-06T11:35:38-03:00</lastmod>
+  </url><url>
+    <loc>https://bykoga.com/about/</loc>
+    <lastmod>2021-07-06T11:30:48-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://bykoga.com/pt-br/tags/typography/"
+                href="https://bykoga.com/pt-br/sobre/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://bykoga.com/tags/typography/"
+                href="https://bykoga.com/about/"
                 />
   </url><url>
-    <loc>https://bykoga.com/retro/world-wide-web/</loc>
-    <lastmod>2021-06-24T14:26:16-03:00</lastmod>
+    <loc>https://bykoga.com/retro/hello-world/</loc>
+    <lastmod>2021-07-06T10:29:15-03:00</lastmod>
+  </url><url>
+    <loc>https://bykoga.com/tags/milestone/</loc>
+    <lastmod>2021-07-06T10:29:15-03:00</lastmod>
+  </url><url>
+    <loc>https://bykoga.com/categories/retro/</loc>
+    <lastmod>2021-07-06T10:29:15-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://bykoga.com/pt-br/retro/world-wide-web/"
+                href="https://bykoga.com/pt-br/categories/retro/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://bykoga.com/retro/world-wide-web/"
+                href="https://bykoga.com/categories/retro/"
                 />
+  </url><url>
+    <loc>https://bykoga.com/academic/</loc>
+    <lastmod>2021-04-30T19:11:56-03:00</lastmod>
   </url><url>
     <loc>https://bykoga.com/</loc>
     <lastmod>2021-04-30T19:11:56-03:00</lastmod>
@@ -118,16 +101,16 @@
                 href="https://bykoga.com/retro/"
                 />
   </url><url>
-    <loc>https://bykoga.com/2/</loc>
+    <loc>https://bykoga.com/4/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://bykoga.com/pt-br/2/"
+                href="https://bykoga.com/pt-br/4/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://bykoga.com/2/"
+                href="https://bykoga.com/4/"
                 />
   </url>
 </urlset>

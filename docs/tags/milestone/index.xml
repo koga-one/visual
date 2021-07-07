@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>milestone on by.koga</title>
+    <link>https://bykoga.com/tags/milestone/</link>
+    <description>Recent content in milestone on by.koga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 06 Jul 2021 10:29:15 -0300</lastBuildDate><atom:link href="https://bykoga.com/tags/milestone/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>https://bykoga.com/retro/hello-world/</link>
+      <pubDate>Tue, 06 Jul 2021 10:29:15 -0300</pubDate>
+      
+      <guid>https://bykoga.com/retro/hello-world/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,17 @@
+{{ define "main" }}
+<section class="single d-flex align-items-center justify-content-center flex-column">
+    {{ $about := i18n "ABOUT" }}
+    {{ $aboutSub := i18n "ABOUTSUB" }}
+    {{ partial "headline.html" (dict "context" . "title" $about "subtitle" $aboutSub )}}
+    <div>
+        {{ partial "button.html" (dict "href" "/portfolio" "text" "portfolio")}}
+        {{ partial "button.html" (dict "href" "/links" "text" "links")}}
+        <!--a href="" class="btn btn-lg text-primary neu mlx-1">portfolio</a-->
+    </div>
+    {{ partial "divider.html" }}
+    <div class="text-container text-center">
+        {{ .Content | safeHTML }}
+    </div>
+    {{ partial "divider.html" }}
+</section>
+{{ end }}

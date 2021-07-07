@@ -1,0 +1,92 @@
+$font-info: (
+    h1: (
+        font-size: $planck * 20,
+        line-height: $planck * 20,
+        font-weight: 200,
+        text-align: center,
+        margin-bottom: $planck * 6
+    ),
+    h2: (
+        font-size: $planck * 9,
+        line-height: $planck * 10,
+        font-weight: 300,
+        text-align: center,
+        margin-bottom: $planck * 6
+    ),
+    h3: (
+        font-size: $planck * 6,
+        line-height: $planck * 7,
+        font-weight: 400,
+        text-align: center,
+        margin-bottom: $planck * 5
+    ),
+    h4: (
+        font-size: $planck * 5,
+        line-height: $planck * 6,
+        font-weight: 500,
+        text-align: end,
+        margin-bottom: $planck * 4
+    ),
+    h5: (
+        font-size: $planck * 4,
+        line-height: $planck * 4.5,
+        font-weight: 500,
+        text-align: end,
+        margin-bottom: $planck * 3
+    ),
+    h6: (
+        font-size: $planck * 3,
+        line-height: $planck * 4,
+        font-weight: 600,
+        text-align: end,
+        margin-bottom: $planck * 2.5
+    ),
+    p: (
+        font-size: $planck * 3,
+        line-height: $planck * 4.5,
+        font-weight: 400,
+        text-align: justify,
+        margin-bottom: $planck * 2
+    ),
+);
+
+@mixin font-info($map) {
+    font-size: map-get($map, font-size);
+    line-height: map-get($map, line-height);
+    font-weight: map-get($map, font-weight);
+    text-align: map-get($map, text-align);
+    margin-bottom: map-get($map, margin-bottom);
+}
+
+@each $size, $value in $font-info {
+    .text-container #{$size} {
+        @include font-info($value);
+    }
+}
+
+.text-container {
+    hr {
+        margin: $planck * 8 0;
+    }
+
+    b, strong {
+        font-weight: 600;
+    }
+
+    * {
+        width: 90vw;
+        @include media-breakpoint-up(sm) {
+            width: 65vw;
+        }
+        @include media-breakpoint-up(md) {
+            width: 50vw;
+        }
+        @include media-breakpoint-up(lg) {
+            width: 38vw;
+        }
+        @include media-breakpoint-up(xl) {
+            width: 30vw;
+        }
+        text-align: justify;
+    }
+}

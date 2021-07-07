@@ -27,9 +27,99 @@
     border: 2px dotted transparentize($color: $primary, $amount: 0);
 }
 
+$planck-sizes: (
+    "1": $planck,
+    "2": $planck * 2,
+    "3": $planck * 3,
+    "4": $planck * 4,
+    "5": $planck * 5,
+    "6": $planck * 6,
+);
+
+@mixin pladding(
+    $t,
+    $r,
+    $b,
+    $l,
+    $top: if($t == 0, null, $t),
+    $right: if($r == 0, null, $r),
+    $bottom: if($b == 0, null, $b),
+    $left: if($l == 0, null, $l),
+) {
+    padding-top: $top !important;
+    padding-right: $right !important;
+    padding-left: $left !important;
+    padding-bottom: $bottom !important;
+}
+
+@mixin mlarging(
+    $t,
+    $r,
+    $b,
+    $l,
+    $top: if($t == 0, null, $t),
+    $right: if($r == 0, null, $r),
+    $bottom: if($b == 0, null, $b),
+    $left: if($l == 0, null, $l),
+) {
+    margin-top: $top !important;
+    margin-right: $right !important;
+    margin-left: $left !important;
+    margin-bottom: $bottom !important;
+}
+
+@each $size, $value in $planck-sizes {
+    .pl-#{$size} {
+      @include pladding($value, $value, $value, $value);
+    }
+    .ply-#{$size} {
+        @include pladding($value, 0, $value, 0);
+    }
+    .plx-#{$size} {
+        @include pladding(0, $value, 0, $value);
+    }
+    .plt-#{$size} {
+        @include pladding($value, 0, 0, 0);
+    }
+    .ple-#{$size} {
+        @include pladding(0, $value, 0, 0);
+    }
+    .plb-#{$size} {
+        @include pladding(0, 0, $value, 0);
+    }
+    .pls-#{$size} {
+        @include pladding(0, 0, 0, $value);
+    }
+
+    .ml-#{$size} {
+      @include mlarging($value, $value, $value, $value);
+    }
+    .mly-#{$size} {
+        @include mlarging($value, 0, $value, 0);
+    }
+    .mlx-#{$size} {
+        @include mlarging(0, $value, 0, $value);
+    }
+    .mlt-#{$size} {
+        @include mlarging($value, 0, 0, 0);
+    }
+    .mle-#{$size} {
+        @include mlarging(0, $value, 0, 0);
+    }
+    .mlb-#{$size} {
+        @include mlarging(0, 0, $value, 0);
+    }
+    .mls-#{$size} {
+        @include mlarging(0, 0, 0, $value);
+    }
+}
+
 // Dropdowns
 .dropdown-menu {
-    top: 160%;
+    top: calc(100% + #{$planck} * 1.8);
+
+    border-radius: 0 0 $planck * 2 $planck * 2;
+    padding: 0 2 * $planck;
 }
 
 .dropdown-item {
@@ -37,34 +127,3 @@
 
     margin: 0 0 $planck * 2;
 }
-
-.dropdown-menu {
-    padding: 2 * $planck;
-}
-
-.plx-1 {
-    padding-left: $planck * 1 !important;
-    padding-right: $planck * 1 !important;
-}
-
-.plx-2 {
-    padding: 0 $planck * 2;
-}
-
-.ply-1 {
-    padding: $planck * 1 0;
-}
-
-.ply-2 {
-    padding: $planck * 2 0;
-}
-
-.pl-1 {
-    padding: $planck * 1;
-}
-
-.pl-2 {
-    padding: $planck * 2;
-}
-
-// Figure out how to do those things for easier editing

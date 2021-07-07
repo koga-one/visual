@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bykoga.com/pt-br/sobre/</loc>
+    <lastmod>2021-07-06T11:30:48-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/sobre/"
+                />
+  </url><url>
     <loc>https://bykoga.com/pt-br/categories/</loc>
     <lastmod>2021-06-24T14:26:16-03:00</lastmod>
     <xhtml:link
@@ -17,16 +30,6 @@
   </url><url>
     <loc>https://bykoga.com/pt-br/tags/hello/</loc>
     <lastmod>2021-06-24T14:26:16-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bykoga.com/tags/hello/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://bykoga.com/pt-br/tags/hello/"
-                />
   </url><url>
     <loc>https://bykoga.com/pt-br/categories/retro/</loc>
     <lastmod>2021-06-24T14:26:16-03:00</lastmod>
@@ -56,29 +59,9 @@
   </url><url>
     <loc>https://bykoga.com/pt-br/tags/typography/</loc>
     <lastmod>2021-06-24T14:26:16-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bykoga.com/tags/typography/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://bykoga.com/pt-br/tags/typography/"
-                />
   </url><url>
     <loc>https://bykoga.com/pt-br/retro/world-wide-web/</loc>
     <lastmod>2021-06-24T14:26:16-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bykoga.com/retro/world-wide-web/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://bykoga.com/pt-br/retro/world-wide-web/"
-                />
   </url><url>
     <loc>https://bykoga.com/pt-br/</loc>
     <lastmod>2021-04-30T19:11:56-03:00</lastmod>
@@ -106,16 +89,16 @@
                 href="https://bykoga.com/pt-br/retro/"
                 />
   </url><url>
-    <loc>https://bykoga.com/pt-br/2/</loc>
+    <loc>https://bykoga.com/pt-br/4/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://bykoga.com/2/"
+                href="https://bykoga.com/4/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://bykoga.com/pt-br/2/"
+                href="https://bykoga.com/pt-br/4/"
                 />
   </url>
 </urlset>

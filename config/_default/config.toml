@@ -20,4 +20,4 @@ enableEmoji = true
     tag = "tags"
 
 ## Pagination
-paginate = 2
+paginate = 4
