@@ -4,22 +4,8 @@
 [categories]
     other = "categories"
     
-[ABOUT]
-    other = "ABOUT"
-
-[ABOUTSUB]
-    other = "me, my stuff, and this website"
-
 [NOTFOUNDSUB]
     other ="/fɔː(r) əʊ fɔː(r)/"
 
 [notfoundDesc]
     other = "looks like you took the wrong turn and ended up here... but don't worry! check the links above and you'll be back on track in no time"
-
-[portfolio]
-    one = "portfolio"
-    other = "portfolios"
-
-[links]
-    one = "link"
-    other ="links"

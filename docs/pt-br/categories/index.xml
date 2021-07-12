@@ -4,16 +4,6 @@
     <title>Categories on by.koga</title>
     <link>https://bykoga.com/pt-br/categories/</link>
     <description>Recent content in Categories on by.koga</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 24 Jun 2021 14:26:16 -0300</lastBuildDate><atom:link href="https://bykoga.com/pt-br/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>retro</title>
-      <link>https://bykoga.com/pt-br/categories/retro/</link>
-      <pubDate>Thu, 24 Jun 2021 14:26:16 -0300</pubDate>
-      
-      <guid>https://bykoga.com/pt-br/categories/retro/</guid>
-      <description></description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://bykoga.com/pt-br/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -4,22 +4,8 @@
 [categories]
     other = "categorias"
 
-[ABOUT]
-    other = "SOBRE"
-
-[ABOUTSUB]
-    other = "mim, minhas coisas, e esse site"
-
 [NOTFOUNDSUB]
     other ="/kwˈaɾ.tu zˈɛ.ɾu kwˈaɾ.tu/"
 
 [notfoundDesc]
     other = "parece que você errou no caminho e acabou parando aqui... mas não se preocupe! cheque os links acima e você estará de volta no seu caminho rapidinho"
-
-[portfolio]
-    one = "portfólio"
-    other = "portfólios"
-
-[links]
-    one = "link"
-    other ="links"

@@ -4,25 +4,6 @@
     <title>Categories on by.koga</title>
     <link>https://bykoga.com/categories/</link>
     <description>Recent content in Categories on by.koga</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 06 Jul 2021 11:35:38 -0300</lastBuildDate><atom:link href="https://bykoga.com/categories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>academic</title>
-      <link>https://bykoga.com/categories/academic/</link>
-      <pubDate>Tue, 06 Jul 2021 11:35:38 -0300</pubDate>
-      
-      <guid>https://bykoga.com/categories/academic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>retro</title>
-      <link>https://bykoga.com/categories/retro/</link>
-      <pubDate>Tue, 06 Jul 2021 10:29:15 -0300</pubDate>
-      
-      <guid>https://bykoga.com/categories/retro/</guid>
-      <description></description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://bykoga.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,6 +1,7 @@
 ---
 # Essential settings
 title: "{{ replace .Name "-" " " | title }}"
+subtitle: ""
 type: "page"
 date: {{ .Date }}
 translationKey: "{{ replace .Name "-" " " | title }}"
@@ -9,5 +10,7 @@ translationKey: "{{ replace .Name "-" " " | title }}"
 draft: false
 
 # Organization
+layout: "page"
 weight:
+buttons:
 ---

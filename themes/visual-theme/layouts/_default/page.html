@@ -1,0 +1,9 @@
+{{ define "main" }}
+<section id="page" class="single d-flex align-items-center justify-content-center flex-column">
+    {{ partial "headline.html" (dict "context" . "title" .Params.title "subtitle" .Params.subtitle )}}
+    <div class="text-container text-center">
+        {{ .Content | safeHTML }}
+    </div>
+    {{ partial "divider.html" }}
+</section>
+{{ end }}

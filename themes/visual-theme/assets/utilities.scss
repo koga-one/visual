@@ -34,6 +34,8 @@ $planck-sizes: (
     "4": $planck * 4,
     "5": $planck * 5,
     "6": $planck * 6,
+    "8": $planck * 8,
+    "10": $planck * 10
 );
 
 @mixin pladding(

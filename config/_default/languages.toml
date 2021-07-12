@@ -8,8 +8,24 @@
     [pt-br.menu]    
         [[pt-br.menu.main]]
             weight = 0
-            name = "Sobre"
-            url = "/sobre"
+            name = "Páginas"
+            identifier = "pages"
+            [[pt-br.menu.main]]
+                parent = "pages"
+                weight = 0
+                name = "Sobre"
+                url = "/sobre"
+            [[pt-br.menu.main]]
+                parent = "pages"
+                weight = 100
+                name = "Portfólio"
+                url = "/portfolio"
+            [[pt-br.menu.main]]
+                parent = "pages"
+                weight = 200
+                name = "Links"
+                url = "/links"
+
 
 [en]
     home = "/en"
@@ -21,5 +37,20 @@
     [en.menu]
         [[en.menu.main]]
             weight = 0
-            name = "About"
-            url = "/about"
+            name = "Pages"
+            identifier = "pages"
+            [[en.menu.main]]
+                parent = "pages"
+                weight = 0
+                name = "About"
+                url = "/about"
+            [[en.menu.main]]
+                parent = "pages"
+                weight = 100
+                name = "Portfolio"
+                url = "/portfolio"
+            [[en.menu.main]]
+                parent = "pages"
+                weight = 200
+                name = "Links"
+                url = "/links"

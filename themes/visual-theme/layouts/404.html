@@ -3,8 +3,9 @@
         {{ $notfoundSub := T "NOTFOUNDSUB" }}
         {{ partial "headline.html" (dict "context" . "title" "404" "subtitle" $notfoundSub)}}
         <div>
-            {{ partial "button.html" (dict "href" "/portfolio" "text" "portfolio")}}
-            {{ partial "button.html" (dict "href" "/links" "text" "links")}}
+            {{ partial "button.html" (dict "href" "about" "text" "about")}}
+            {{ partial "button.html" (dict "href" "portfolio" "text" "portfolio")}}
+            {{ partial "button.html" (dict "href" "links" "text" "links")}}
             <!--a href="" class="btn btn-lg text-primary neu mlx-1">portfolio</a-->
         </div>
         {{ partial "divider.html" }}

@@ -1,6 +1,7 @@
-<span class="ply-6"></span>
-<span class="ply-6"></span>
-{{ partial "divider.html" }}
-<h1 id="page-title" class="text-center fw-bold">{{ .title }}</h1>
-<h2 id="page-subtitle" class="text-center display-5 fw-bold">{{ .subtitle }}</h2>
-<span class="ply-2"></span>
+<section id="headline" class="mlt-8 d-flex align-items-center justify-content-center flex-column">
+    {{ partial "divider.html" }}
+    <h1 id="page-title" class="text-center fw-bold">{{ .title | upper }}</h1>
+    <h2 id="page-subtitle" class="text-center display-5 fw-bold">{{ .subtitle }}</h2>
+    <span class="ply-2"></span>
+    {{ partial "divider.html" }}
+</section>

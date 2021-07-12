@@ -98,15 +98,50 @@ $gallery-size-2: calc(100vw - #{$planck} * 4);
     min-height: calc(100vh - #{$planck} * 10);
 }
 
+#page {
+    overflow-y: hidden;
+}
+
 #page-title {
-    line-height: $planck * 40;
-    font-size: $planck * 45;
+    word-break: break-all;
+    line-height: $planck * 19;
+    font-size: $planck * 25;
+    max-width: 95vw;
+    
+    @include media-breakpoint-up(sm) {
+        line-height: $planck * 26;
+        font-size: $planck * 30;
+        max-width: 80vw;
+    }
+    
+    @include media-breakpoint-up(md) {
+        line-height: $planck * 31;
+        font-size: $planck * 35;
+        max-width: 70vw;
+    }
+    
+    @include media-breakpoint-up(lg) {
+        line-height: $planck * 35;
+        font-size: $planck * 40;
+        max-width: 70vw;
+    }
+
+    @include media-breakpoint-up(xl) {
+        line-height: $planck * 44;
+        font-size: $planck * 50;
+        max-width: 70vw;
+    }
 }
 
 #page-subtitle {
 
 }
 
+#headline {
+    min-height: 81vh;
+}
+
 .single {
     min-height: calc(100vh - #{$planck} * 10);
+    overflow-x: hidden;
 }
