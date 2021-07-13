@@ -129,3 +129,7 @@ $planck-sizes: (
 
     margin: 0 0 $planck * 2;
 }
+
+.pointer-events-none {
+    pointer-events: none;
+}

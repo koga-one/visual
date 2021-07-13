@@ -13,6 +13,9 @@ weight:
 categories: [""]
 tags: []
 
+# Prototyping
+layout: "prototype"
+
 # Thumbnail / Featured
 thumb: "images/Placeholder.jpg"
 ---

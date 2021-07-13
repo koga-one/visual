@@ -1,5 +1,5 @@
 {{ if eq .Kind "home" }}
-{{ $pages := .Paginate (where .Site.Pages "Type" "post") }}
+{{ $pages := .Paginate (where .Site.Pages "Type" "post") 4 }}
 <div class="paginator">
     <div class="gallery">
         {{ range $page := $pages.Pages }}
@@ -8,7 +8,7 @@
     </div>
 </div>
 {{ else }}
-{{ $pages := .Paginate (where .Pages "Type" "post") }}
+{{ $pages := .Paginate (where .Pages "Type" "post") 4 }}
 <div class="paginator">
     <div class="gallery">
         {{ range $page := $pages.Pages }}
@@ -18,4 +18,4 @@
 </div>
 {{ end }}
 
-{{ partial "pagination.html" . }}
+{{ partial "player.html" . }}

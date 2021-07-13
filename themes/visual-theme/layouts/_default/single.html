@@ -1,5 +1,11 @@
 {{ define "main" }}
-<section class="single">
+
+{{- partial "header-top.html" . -}}
+
+<section id="post" class="single">
     {{ .Content | safeHTML }}
 </section>
+
+{{ partial "player.html" . }}
+
 {{ end }}

@@ -82,7 +82,7 @@ $gallery-size-2: calc(100vw - #{$planck} * 4);
 }
 
 #footer {
-    margin-top: $planck * 2;
+    
     min-height: $planck * 20;
 
     z-index: 1000;
@@ -148,4 +148,8 @@ $gallery-size-2: calc(100vw - #{$planck} * 4);
 .single {
     min-height: calc(100vh - #{$planck} * 10);
     overflow-x: hidden;
+}
+
+#post {
+    //margin-top: 14.5 * $planck;
 }

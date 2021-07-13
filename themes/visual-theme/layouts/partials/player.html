@@ -1,7 +1,7 @@
 <div id="player" class="navbar rounded p-0 d-flex justify-content-center">
     <div class="rounded pagination d-flex justify-content-center">
     {{ if gt .Paginator.PageNumber 1 }}
-        <a class="btn neu text-primary enabled" href="{{ .Paginator.First.URL }}"><code><|| 1</code></a>
+        <a class="btn neu enabled fw-bold" href="{{ .Paginator.First.URL }}"><code><|| 1</code></a>
         {{ else }}
         <a class="btn neu disabled"><code><|| 1</code></a>
         {{ end }}
@@ -9,19 +9,19 @@
         <span class="plx-1"></span>
         
         {{ if .Paginator.HasPrev }}
-        <a class="btn neu text-primary enabled" href="{{ .Paginator.Prev.URL }}"><code><|</code></a>
+        <a class="btn neu enabled fw-bold" href="{{ .Paginator.Prev.URL }}"><code><|</code></a>
         {{ else }}
         <a class="btn neu disabled"><code><|</code></a>
         {{ end }}
         
         <span class="plx-1"></span>
         
-        <a class="btn neu disabled fw-bold nav-item"><code>{{ .Paginator.PageNumber }}</code></a>
+        <a class="btn neu border border-primary border-2 text-primary pointer-events-none fw-bold nav-item"><code>{{ .Title | lower }} | {{ .Paginator.PageNumber }}</code></a>
         
         <span class="plx-1"></span>
         
         {{ if .Paginator.HasNext }}
-        <a class="btn neu text-primary enabled" href="{{ .Paginator.Next.URL }}"><code>|></code></a>
+        <a class="btn neu enabled fw-bold" href="{{ .Paginator.Next.URL }}"><code>|></code></a>
         {{ else }}
         <a class="btn neu disabled"><code>|></code></a>
         {{ end }}
@@ -29,7 +29,7 @@
         <span class="plx-1"></span>
         
         {{ if lt .Paginator.PageNumber .Paginator.TotalPages }}
-        <a class="btn neu text-primary enabled" href="{{ .Paginator.Last.URL }}"><code>{{ .Paginator.TotalPages }} ||></code></a>
+        <a class="btn neu enabled fw-bold" href="{{ .Paginator.Last.URL }}"><code>{{ .Paginator.TotalPages }} ||></code></a>
         {{ else }}
         <a class="btn neu disabled"><code>{{.Paginator.TotalPages}} ||></code></a>
         {{ end }}
