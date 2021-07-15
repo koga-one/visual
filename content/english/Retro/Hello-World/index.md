@@ -20,7 +20,7 @@ layout: ""
 thumb: "images/www.jpg"
 ---
 
-<h1>World Wide Web</h1>The WorldWideWeb (W3) is a wide-area<a name="0" href="WhatIs.html">
+<h1 class="fw-bold">World Wide Web</h1>The WorldWideWeb (W3) is a wide-area<a name="0" href="WhatIs.html">
         hypermedia</a> information retrieval
     initiative aiming to give universal
     access to a large universe of documents.<p>
@@ -84,13 +84,36 @@ thumb: "images/www.jpg"
         </dd>
     </dl>
 
+<hr>
+
+inspired by the first website ever created <code>-></code> ([http://info.cern.ch/hypertext/WWW/TheProject.html](http://info.cern.ch/hypertext/WWW/TheProject.html))
+
 <style>
     #post {
+        padding: 0.5rem;
         background-color: white;
         font-family: serif !important;
+
+        line-height: 1.2rem;
+
+        min-height: 100vh;
+    }
+
+    #post h1 {
+        margin: 0 0 1.2rem 0;
+    }
+
+    #post p, #post dl {
+        margin: 0.9rem 0;
     }
 
     #post a {
         color: blue;
+        font-weight: normal;
+    }
+
+    #post dd {
+        margin-left: 2.5rem;
+        margin-bottom: 0;
     }
 </style>

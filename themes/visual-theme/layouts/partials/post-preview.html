@@ -4,5 +4,5 @@
         {{ .Scratch.Set "lowres-image" ($image.Fill "512x512 jpg q80") }}
         <div class="gallery-single-image rounded" style='background-image: url({{ (.Scratch.Get "lowres-image").Permalink }})'></div>
     {{ end }}
-    <a href="{{ .Permalink }}" class="gallery-single-link btn btn-light rounded"><code>{{ .Params.title }} -></code></a>
+    <a href="{{ .Permalink }}#post" class="gallery-single-link btn btn-light rounded"><code>{{ .Params.title }} -></code></a>
 </div>   

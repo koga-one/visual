@@ -1,29 +1,29 @@
 <div id="player-single" class="navbar rounded p-0 d-flex justify-content-center">
     <div class="rounded pagination d-flex justify-content-center">
         {{ if .PrevPage }}
-            {{ if eq .PrevPage.Params.type "post"}}
-                <a class="btn neu enabled fw-bold" href="{{ .PrevPage.Permalink }}"><code><| {{ .PrevPage.Title | lower }}</code></a>
-            {{ else }}
-                <a class="btn neu disabled"><code><| previous</code></a>
-            {{ end }}
+        {{ if eq .PrevPage.Params.type "post"}}
+        <a class="btn neu enabled fw-bold" href="{{ .PrevPage.Permalink }}"><code><| {{ .PrevPage.Title | lower }}</code></a>
         {{ else }}
-            <a class="btn neu disabled"><code><| previous</code></a>
+        <a class="btn neu disabled"><code><| previous</code></a>
         {{ end }}
-            
-        <span class="plx-1"></span>
-            
-        <a class="btn neu border border-primary border-2 text-primary fw-bold nav-item"><code>{{ .Title | lower }}</code></a>
-            
-        <span class="plx-1"></span>
-            
-        {{ if .NextPage }}
-            {{ if eq .NextPage.Params.type "post"}}
-                <a class="btn neu enabled fw-bold" href="{{ .NextPage.Permalink }}?ref=footer"><code>{{ .NextPage.Title | lower }} |></code></a>
-            {{ else }}
-                <a class="btn neu disabled"><code>next |></code></a>
-            {{ end }}
         {{ else }}
-            <a class="btn neu disabled"><code>next |></code></a>
+        <a class="btn neu disabled"><code><| previous</code></a>
+        {{ end }}
+        
+        <span class="plx-1"></span>
+        
+        <a class="btn neu border border-primary border-2 text-primary pointer-events-none fw-bold nav-item"><code>{{ .Title | lower }}</code></a>
+        
+        <span class="plx-1"></span>
+        
+        {{ if .NextPage }}
+        {{ if eq .NextPage.Params.type "post"}}
+        <a class="btn neu enabled fw-bold" href="{{ .NextPage.Permalink }}?ref=footer"><code>{{ .NextPage.Title | lower }} |></code></a>
+        {{ else }}
+        <a class="btn neu disabled"><code>next |></code></a>
+        {{ end }}
+        {{ else }}
+        <a class="btn neu disabled"><code>next |></code></a>
         {{ end }}
     </div>
 </div>

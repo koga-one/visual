@@ -2,8 +2,13 @@ $post-row-1: calc(100vmin - #{$planck} * 4);
 $post-column-1: calc(100vmin - #{$planck} * 4);
 $gallery-size-1: calc(100vmin - #{$planck} * 4);
 
-$post-row-2: calc(100vh - #{$planck} * 4);
+$post-row-2: 1fr;
+$post-column-2: calc(100vw - #{$planck} * 4);
 $gallery-size-2: calc(100vw - #{$planck} * 4);
+
+$post-row-3: calc(100vh - #{$planck} * 4);
+$post-column-3: minmax(150px, 30vw);
+$gallery-size-3: calc(100vw - #{$planck} * 4);
 
 .gallery {
     padding: $planck * 2 0;
@@ -16,11 +21,20 @@ $gallery-size-2: calc(100vw - #{$planck} * 4);
     grid-auto-rows: $post-row-1;
     grid-template-columns: $post-column-1;
     
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(sm) {
         width: $gallery-size-2;
+        height: calc(100vh - 10 * #{$planck});
         grid-template-rows: $post-row-2;
-        grid-template-columns: minmax(150px, 30vw);
-        grid-auto-columns: minmax(150px, 30vw);
+        grid-auto-rows: $post-row-2;
+        grid-template-columns: $post-column-2;
+        grid-auto-flow: row;
+    }
+
+    @include media-breakpoint-up(md) {
+        width: $gallery-size-3;
+        grid-template-rows: $post-row-3;
+        grid-template-columns: $post-column-3;
+        grid-auto-columns: $post-column-3;
         grid-auto-flow: column;
     }
 }
@@ -40,7 +54,11 @@ $gallery-size-2: calc(100vw - #{$planck} * 4);
 .gallery-single-link {
     position: absolute;
     right: $planck * 2;
-    bottom: $planck * 10;
+    bottom: $planck * 2;
+
+    @include media-breakpoint-up(md) {
+        bottom: $planck * 10;
+    }
     
     font-size: larger;
     font-weight: 900;
@@ -54,9 +72,6 @@ $gallery-size-2: calc(100vw - #{$planck} * 4);
     background-color: $gray-100;
     margin: $planck * 2;
     padding: $planck * 1 $planck * 2;
-}
-
-#main {
 }
 
 #header {
@@ -143,13 +158,4 @@ $gallery-size-2: calc(100vw - #{$planck} * 4);
     @include media-breakpoint-up(md) {
         min-height: 80vh;
     }
-}
-
-.single {
-    min-height: calc(100vh - #{$planck} * 10);
-    overflow-x: hidden;
-}
-
-#post {
-    //margin-top: 14.5 * $planck;
 }

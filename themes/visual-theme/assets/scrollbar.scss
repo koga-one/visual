@@ -9,3 +9,12 @@
       border: 1px $primary solid;
     }
   }
+
+#scrollTop {
+  font-family: $font-family-sans-serif;
+
+  position: fixed;
+
+  top: 2 * $planck;
+  right: 2 * $planck;
+}
