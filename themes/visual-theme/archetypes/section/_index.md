@@ -7,4 +7,7 @@ translationKey: "{{ replace .Name "-" " " | title }}"
 
 # Scheduling
 draft: false
+
+# Meta
+summary: 
 ---

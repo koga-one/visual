@@ -18,4 +18,7 @@ layout: "prototype"
 
 # Thumbnail / Featured
 thumb: "images/Placeholder.jpg"
+
+# Meta
+summary: 
 ---

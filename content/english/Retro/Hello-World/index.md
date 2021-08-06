@@ -18,69 +18,56 @@ layout: ""
 
 # Thumbnail / Featured
 thumb: "images/www.jpg"
+summary: 
 ---
 
-<h1 class="fw-bold">World Wide Web</h1>The WorldWideWeb (W3) is a wide-area<a name="0" href="WhatIs.html">
-        hypermedia</a> information retrieval
+<h1 class="fw-bold">by.koga</h1>by.koga is a wide-area<a name="0" href="/about">
+        design</a> information retrieval
     initiative aiming to give universal
-    access to a large universe of documents.<p>
+    access to a large universe of design ideas.<p>
         Everything there is online about
-        W3 is linked directly or indirectly
-        to this document, including an <a name="24" href="Summary.html">executive
-            summary</a> of the project, <a name="29" href="Administration/Mailing/Overview.html">Mailing lists</a>
-        , <a name="30" href="Policy.html">Policy</a> , November's <a name="34" href="News/9211.html">W3 news</a> ,
-        <a name="41" href="FAQ/List.html">Frequently Asked Questions</a> .
+        by.koga is linked directly or indirectly
+        to this document, including an <a name="24" href="/about">executive
+            summary</a> of the project.
     </p>
     <dl>
-        <dt><a name="44" href="../DataSources/Top.html">What's out there?</a>
+        <dt><a name="44" href="/links">What's out there?</a>
         </dt>
-        <dd> Pointers to the
-            world's online information,<a name="45" href="../DataSources/bySubject/Overview.html"> subjects</a>
-            , <a name="z54" href="../DataSources/WWW/Servers.html">W3 servers</a>, etc.
+        <dd> Pointers to by.koga's online information,<a name="45" href="/links"> resources</a>
+            , <a name="z54" href="/links">links</a>, etc.
         </dd>
-        <dt><a name="46" href="Help.html">Help</a>
+        <dt><a name="46" href="/about">Help</a>
         </dt>
-        <dd> on the browser you are using
+        <dd> on the website you're accessing
         </dd>
-        <dt><a name="13" href="Status.html">Software Products</a>
+        <dt><a name="13" href="/">Content</a>
         </dt>
-        <dd> A list of W3 project
-            components and their current state.
-            (e.g. <a name="27" href="LineMode/Browser.html">Line Mode</a> ,X11 <a name="35"
-                href="Status.html#35">Viola</a> , <a name="26" href="NeXT/WorldWideWeb.html">NeXTStep</a>
-            , <a name="25" href="Daemon/Overview.html">Servers</a> , <a name="51" href="Tools/Overview.html">Tools</a>
-            ,<a name="53" href="MailRobot/Overview.html"> Mail robot</a> ,<a name="52" href="Status.html#57">
-                Library</a> )
+        <dd> A list of by.koga projects and their current state.
+            (e.g. <a name="27" href="#post">Hello World</a>)
         </dd>
-        <dt><a name="47" href="Technical.html">Technical</a>
+        <dt><a name="47" href="/portfolio">Portfolio</a>
         </dt>
-        <dd> Details of protocols, formats,
-            program internals etc
+        <dd> Details of achivements, projects, programs etc
         </dd>
-        <dt><a name="40" href="Bibliography.html">Bibliography</a>
-        </dt>
-        <dd> Paper documentation
-            on W3 and references.
-        </dd>
-        <dt><a name="14" href="People.html">People</a>
+        <dt><a name="14" href="/people">People</a>
         </dt>
         <dd> A list of some people involved
             in the project.
         </dd>
-        <dt><a name="15" href="History.html">History</a>
+        <dt><a name="15" href="/origin">History</a>
         </dt>
         <dd> A summary of the history
             of the project.
         </dd>
-        <dt><a name="37" href="Helping.html">How can I help</a> ?
+        <dt><a name="37" href="/helping">How can I help</a> ?
         </dt>
         <dd> If you would like
-            to support the web..
+            to support by.koga..
         </dd>
-        <dt><a name="48" href="../README.html">Getting code</a>
+        <dt><a name="48" href="https://github.com/gitbykoga/visual">Getting code</a>
         </dt>
-        <dd> Getting the code by<a name="49" href="LineMode/Defaults/Distribution.html">
-                anonymous FTP</a> , etc.
+        <dd> Hosted by <a name="49" href="https://github.com/pages">Github Pages</a>, powered by <a name="49" href="https://www.gohugo.io">
+                Hugo</a> , etc.
         </dd>
     </dl>
 
