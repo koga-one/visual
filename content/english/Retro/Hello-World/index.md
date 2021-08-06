@@ -73,7 +73,7 @@ summary:
 
 <hr>
 
-inspired by the first website ever created <code>-></code> ([http://info.cern.ch/hypertext/WWW/TheProject.html](http://info.cern.ch/hypertext/WWW/TheProject.html))
+inspired by the [first website ever created](http://info.cern.ch/hypertext/WWW/TheProject.html)
 
 <style>
     #post {
