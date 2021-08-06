@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Retroes on by.koga</title>
-    <link>https://bykoga.com/pt-br/retro/</link>
-    <description>Recent content in Retroes on by.koga</description>
+    <title>tech on by.koga</title>
+    <link>https://bykoga.com/pt-br/tags/tech/</link>
+    <description>Recent content in tech on by.koga</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 13 Jul 2021 15:32:43 -0300</lastBuildDate><atom:link href="https://bykoga.com/pt-br/retro/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Jul 2021 15:32:43 -0300</lastBuildDate><atom:link href="https://bykoga.com/pt-br/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
       <link>https://bykoga.com/pt-br/retro/hello-world/</link>

@@ -2,6 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bykoga.com/pt-br/categories/</loc>
+    <lastmod>2021-07-13T15:32:43-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/categories/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/pt-br/retro/hello-world/</loc>
+    <lastmod>2021-07-13T15:32:43-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/retro/hello-world/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/retro/hello-world/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/pt-br/tags/old/</loc>
+    <lastmod>2021-07-13T15:32:43-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/tags/old/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/tags/old/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/pt-br/categories/retro/</loc>
+    <lastmod>2021-07-13T15:32:43-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/categories/retro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/categories/retro/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/pt-br/retro/</loc>
+    <lastmod>2021-07-13T15:32:43-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/retro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/retro/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/pt-br/tags/</loc>
+    <lastmod>2021-07-13T15:32:43-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/tags/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/pt-br/tags/tech/</loc>
+    <lastmod>2021-07-13T15:32:43-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/tags/tech/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/tags/tech/"
+                />
+  </url><url>
     <loc>https://bykoga.com/pt-br/portfolio/</loc>
     <lastmod>2021-07-12T18:50:57-03:00</lastmod>
     <xhtml:link
@@ -51,30 +142,6 @@
                 rel="alternate"
                 hreflang="pt-br"
                 href="https://bykoga.com/pt-br/4/"
-                />
-  </url><url>
-    <loc>https://bykoga.com/pt-br/categories/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bykoga.com/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://bykoga.com/pt-br/categories/"
-                />
-  </url><url>
-    <loc>https://bykoga.com/pt-br/tags/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bykoga.com/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://bykoga.com/pt-br/tags/"
                 />
   </url>
 </urlset>

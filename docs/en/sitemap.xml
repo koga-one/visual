@@ -17,15 +17,55 @@
   </url><url>
     <loc>https://bykoga.com/retro/hello-world/</loc>
     <lastmod>2021-07-13T15:32:43-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/retro/hello-world/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/retro/hello-world/"
+                />
   </url><url>
     <loc>https://bykoga.com/tags/old/</loc>
     <lastmod>2021-07-13T15:32:43-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/tags/old/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/tags/old/"
+                />
   </url><url>
     <loc>https://bykoga.com/categories/retro/</loc>
     <lastmod>2021-07-13T15:32:43-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/categories/retro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/categories/retro/"
+                />
   </url><url>
     <loc>https://bykoga.com/retro/</loc>
     <lastmod>2021-07-13T15:32:43-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/retro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/retro/"
+                />
   </url><url>
     <loc>https://bykoga.com/tags/</loc>
     <lastmod>2021-07-13T15:32:43-03:00</lastmod>
@@ -42,6 +82,16 @@
   </url><url>
     <loc>https://bykoga.com/tags/tech/</loc>
     <lastmod>2021-07-13T15:32:43-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/tags/tech/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/tags/tech/"
+                />
   </url><url>
     <loc>https://bykoga.com/portfolio/</loc>
     <lastmod>2021-07-12T18:50:57-03:00</lastmod>
