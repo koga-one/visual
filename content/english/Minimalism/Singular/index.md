@@ -23,7 +23,7 @@ thumb: "images/SINGULAR.png"
 summary: 
 ---
 
-<div class="quote centered"><h1 id="quote" style="font-size: 15vw"></h1></div>
+<div class="quote centered"><h1 id="quote" style="font-size: calc(12vw + 5vh)"></h1></div>
 
 <div class="animated centered" style="width: 50px; height: 50px; animation-delay: -0.1s"></div>
 <div class="animated centered" style="width: 100px; height: 100px; animation-delay: -0.2s""></div>
@@ -77,6 +77,8 @@ summary:
         content: "singular";
 
         color: black;
+
+        text-shadow: 2px 2px 0px magenta;
 
         animation: quotes1 20s 2s linear,
                    quotes2 20s 22s linear,

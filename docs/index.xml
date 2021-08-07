@@ -12,7 +12,7 @@
       <pubDate>Thu, 05 Aug 2021 23:57:14 -0300</pubDate>
       
       <guid>https://bykoga.com/minimalism/singular/</guid>
-      <description>.quote {text-align: center;transform: translate(50%, -57%);z-index: 100;}#quote {}#quote:after {content: &#34;singular&#34;;color: black;animation: quotes1 20s 2s linear,quotes2 20s 22s linear,quotes3 20s 42s linear,quotes4 20s 62s linear,quotes5 20s 82s linear,quotes6 20s 102s linear,quotes7 20s 122s linear,quotes8 20s 142s linear,quotes9 20s 162s linear,quotes10 20s 182s linear;}@keyframes quotes1 {0% { content: &#34;</description>
+      <description>.quote {text-align: center;transform: translate(50%, -57%);z-index: 100;}#quote {}#quote:after {content: &#34;singular&#34;;color: black;text-shadow: 2px 2px 0px magenta;animation: quotes1 20s 2s linear,quotes2 20s 22s linear,quotes3 20s 42s linear,quotes4 20s 62s linear,quotes5 20s 82s linear,quotes6 20s 102s linear,quotes7 20s 122s linear,quotes8 20s 142s linear,quotes9 20s 162s linear,quotes10 20s 182s linear;}@keyframes quotes1 {0% { content: &#34;</description>
     </item>
     
     <item>
