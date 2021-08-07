@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Minimalisms on by.koga</title>
+    <link>https://bykoga.com/pt-br/minimalism/</link>
+    <description>Recent content in Minimalisms on by.koga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 05 Aug 2021 23:57:14 -0300</lastBuildDate><atom:link href="https://bykoga.com/pt-br/minimalism/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Singular</title>
+      <link>https://bykoga.com/pt-br/minimalism/singular/</link>
+      <pubDate>Thu, 05 Aug 2021 23:57:14 -0300</pubDate>
+      
+      <guid>https://bykoga.com/pt-br/minimalism/singular/</guid>
+      <description>.quote {text-align: center;transform: translate(50%, -57%);z-index: 100;}#quote {}#quote:after {content: &#34;singular&#34;;color: black;animation: quotes1 20s 2s linear,quotes2 20s 22s linear,quotes3 20s 42s linear,quotes4 20s 62s linear,quotes5 20s 82s linear,quotes6 20s 102s linear,quotes7 20s 122s linear,quotes8 20s 142s linear,quotes9 20s 162s linear,quotes10 20s 182s linear;}@keyframes quotes1 {0% { content: &#34;</description>
+    </item>
+    
+  </channel>
+</rss>

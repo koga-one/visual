@@ -18,7 +18,7 @@
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
                         {{ range $.Translations }}
                         <li>
-                            <a title="{{ .Language.LanguageName }}" class="dropdown-item" href="{{ .Permalink }}"
+                            <a title="{{ .Language.LanguageName }}" class="dropdown-item" href="{{ .Permalink }}#post"
                                 aria-label='{{ T " ariaTranslation" }}{{ .Language.LanguageName }}'>
                                 {{ .Language.LanguageName | lower }}
                             </a>
