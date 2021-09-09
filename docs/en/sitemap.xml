@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://bykoga.com/categories/</loc>
-    <lastmod>2021-08-05T23:57:14-03:00</lastmod>
+    <lastmod>2021-09-06T21:37:35-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
@@ -16,7 +16,7 @@
                 />
   </url><url>
     <loc>https://bykoga.com/tags/clean/</loc>
-    <lastmod>2021-08-05T23:57:14-03:00</lastmod>
+    <lastmod>2021-09-06T21:37:35-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
@@ -26,6 +26,48 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://bykoga.com/tags/clean/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/categories/inspiration/</loc>
+    <lastmod>2021-09-06T21:37:35-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/categories/inspiration/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/categories/inspiration/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/inspiration/</loc>
+    <lastmod>2021-09-06T21:37:35-03:00</lastmod>
+  </url><url>
+    <loc>https://bykoga.com/inspiration/prompts/</loc>
+    <lastmod>2021-09-06T21:37:35-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/prompts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/inspiration/prompts/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/tags/</loc>
+    <lastmod>2021-09-06T21:37:35-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/tags/"
                 />
   </url><url>
     <loc>https://bykoga.com/categories/minimalism/</loc>
@@ -65,19 +107,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://bykoga.com/minimalism/singular/"
-                />
-  </url><url>
-    <loc>https://bykoga.com/tags/</loc>
-    <lastmod>2021-08-05T23:57:14-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://bykoga.com/pt-br/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bykoga.com/tags/"
                 />
   </url><url>
     <loc>https://bykoga.com/retro/hello-world/</loc>
