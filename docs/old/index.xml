@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Old on by.koga</title>
+    <link>https://bykoga.com/old/</link>
+    <description>Recent content in Old on by.koga</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 16 Nov 2021 14:03:50 -0300</lastBuildDate><atom:link href="https://bykoga.com/old/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rainbow</title>
+      <link>https://bykoga.com/old/rainbow/</link>
+      <pubDate>Tue, 05 Oct 2021 14:04:25 -0300</pubDate>
+      
+      <guid>https://bykoga.com/old/rainbow/</guid>
+      <description>rainbow
+#rainbow {position: relative;height: 100vh;animation: colors infinite 15s linear;}#rainbow p {position: absolute;color: white;text-align: center;right: 50%;bottom: 50%;transform: translate(50%, 50%);}@keyframes colors {0% {background-color: hsl(0, 100%, 50%);}10% {background-color: hsl(36, 100%, 50%);}20% {background-color: hsl(72, 100%, 50%);}30% {background-color: hsl(108, 100%, 50%);}40% {background-color: hsl(144, 100%, 50%);}50% {background-color: hsl(180, 100%, 50%);}60% {background-color: hsl(216, 100%, 50%);}70% {background-color: hsl(252, 100%, 50%);}80% {background-color: hsl(288, 100%, 50%);}90% {background-color: hsl(324, 100%, 50%);}100% {background-color: hsl(360, 100%, 50%);}}  </description>
+    </item>
+    
+    <item>
+      <title>Prompts</title>
+      <link>https://bykoga.com/old/prompts/</link>
+      <pubDate>Mon, 06 Sep 2021 21:37:35 -0300</pubDate>
+      
+      <guid>https://bykoga.com/old/prompts/</guid>
+      <description>when was the last time that you looked up at the sky?#particles-js {height: 100vh;background-color: #09162b;}.prompt-center {position: absolute;right: 50%;top: 50%;transform: translate(50%, 50%);text-align: center;color: #09162b;text-shadow: 1px 1px 0px #f5f7d5;}particlesJS(&#34;particles-js&#34;, {&#34;particles&#34;:{&#34;number&#34;:{&#34;value&#34;:80,&#34;density&#34;:{&#34;enable&#34;:true,&#34;value_area&#34;:800}},&#34;color&#34;:{&#34;value&#34;:&#34;#f5f7d5&#34;},&#34;shape&#34;:{&#34;type&#34;:&#34;star&#34;,&#34;stroke&#34;:{&#34;width&#34;:0,&#34;color&#34;:&#34;#000000&#34;},&#34;polygon&#34;:{&#34;nb_sides&#34;:5},&#34;image&#34;:{&#34;src&#34;:&#34;img/github.svg&#34;,&#34;width&#34;:100,&#34;height&#34;:100}},&#34;opacity&#34;:{&#34;value&#34;:0.5,&#34;random&#34;:false,&#34;anim&#34;:{&#34;enable&#34;:false,&#34;speed&#34;:1,&#34;opacity_min&#34;:0.1,&#34;sync&#34;:false}},&#34;size&#34;:{&#34;value&#34;:3,&#34;random&#34;:true,&#34;anim&#34;:{&#34;enable&#34;:false,&#34;speed&#34;:40,&#34;size_min&#34;:0.1,&#34;sync&#34;:false}},&#34;line_linked&#34;:{&#34;enable&#34;:true,&#34;distance&#34;:150,&#34;color&#34;:&#34;#ffffff&#34;,&#34;opacity&#34;:0.4,&#34;width&#34;:1},&#34;move&#34;:{&#34;enable&#34;:true,&#34;speed&#34;:3,&#34;direction&#34;:&#34;none&#34;,&#34;random&#34;:true,&#34;straight&#34;:false,&#34;out_mode&#34;:&#34;bounce&#34;,&#34;bounce&#34;:false,&#34;attract&#34;:{&#34;enable&#34;:false,&#34;rotateX&#34;:600,&#34;rotateY&#34;:1200}}},&#34;interactivity&#34;:{&#34;detect_on&#34;:&#34;canvas&#34;,&#34;events&#34;:{&#34;onhover&#34;:{&#34;enable&#34;:true,&#34;mode&#34;:&#34;bubble&#34;},&#34;onclick&#34;:{&#34;enable&#34;:true,&#34;mode&#34;:&#34;push&#34;},&#34;resize&#34;:true},&#34;modes&#34;:{&#34;grab&#34;:{&#34;distance&#34;:400,&#34;line_linked&#34;:{&#34;opacity&#34;:1}},&#34;bubble&#34;:{&#34;distance&#34;:400,&#34;size&#34;:4,&#34;duration&#34;:2,&#34;opacity&#34;:8,&#34;speed&#34;:3},&#34;repulse&#34;:{&#34;distance&#34;:200,&#34;duration&#34;:0.4},&#34;push&#34;:{&#34;particles_nb&#34;:4},&#34;remove&#34;:{&#34;particles_nb&#34;:2}}},&#34;retina_detect&#34;:true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = &#39;absolute&#39;; stats.domElement.style.left = &#39;0px&#39;; stats.domElement.style.top = &#39;0px&#39;; document.body.appendChild(stats.domElement); count_particles = document.querySelector(&#39;.js-count-particles&#39;); update = function() { stats.</description>
+    </item>
+    
+    <item>
+      <title>Singular</title>
+      <link>https://bykoga.com/old/singular/</link>
+      <pubDate>Thu, 05 Aug 2021 23:57:14 -0300</pubDate>
+      
+      <guid>https://bykoga.com/old/singular/</guid>
+      <description>.quote {text-align: center;transform: translate(50%, -57%);z-index: 100;}#quote {}#quote:after {content: &#34;singular&#34;;color: black;text-shadow: 2px 2px 0px magenta;animation: quotes1 20s 2s linear,quotes2 20s 22s linear,quotes3 20s 42s linear,quotes4 20s 62s linear,quotes5 20s 82s linear,quotes6 20s 102s linear,quotes7 20s 122s linear,quotes8 20s 142s linear,quotes9 20s 162s linear,quotes10 20s 182s linear;}@keyframes quotes1 {0% { content: &#34;</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://bykoga.com/old/hello-world/</link>
+      <pubDate>Tue, 13 Jul 2021 15:32:43 -0300</pubDate>
+      
+      <guid>https://bykoga.com/old/hello-world/</guid>
+      <description>by.kogaby.koga is a wide-areadesign information retrievalinitiative aiming to give universalaccess to a large universe of design ideas.Everything there is online aboutby.koga is linked directly or indirectlyto this document, including an executivesummary of the project.What&#39;s out there? Pointers to by.koga&#39;s online information,resources, links, etc.Help on the website you&#39;re accessingContent A list of by.</description>
+    </item>
+    
+  </channel>
+</rss>

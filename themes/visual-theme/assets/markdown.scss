@@ -4,49 +4,64 @@ $font-info: (
         line-height: $planck * 20,
         font-weight: 200,
         text-align: center,
-        margin-bottom: $planck * 6
+        margin-bottom: $planck * 6,
+        color: inherit
     ),
     h2: (
         font-size: $planck * 9,
         line-height: $planck * 10,
         font-weight: 300,
         text-align: center,
-        margin-bottom: $planck * 6
+        margin-bottom: $planck * 6,
+        color: inherit
     ),
     h3: (
         font-size: $planck * 6,
         line-height: $planck * 7,
         font-weight: 400,
         text-align: center,
-        margin-bottom: $planck * 5
+        margin-bottom: $planck * 5,
+        color: inherit
     ),
     h4: (
         font-size: $planck * 5,
         line-height: $planck * 6,
         font-weight: 500,
         text-align: end,
-        margin-bottom: $planck * 4
+        margin-bottom: $planck * 4,
+        color: inherit
     ),
     h5: (
         font-size: $planck * 4,
         line-height: $planck * 4.5,
         font-weight: 500,
         text-align: end,
-        margin-bottom: $planck * 3
+        margin-bottom: $planck * 6,
+        color: $light
     ),
     h6: (
         font-size: $planck * 3,
         line-height: $planck * 4,
         font-weight: 600,
         text-align: end,
-        margin-bottom: $planck * 2.5
+        margin-bottom: $planck * 2.5,
+        color: inherit
     ),
     p: (
         font-size: $planck * 3,
         line-height: $planck * 4.5,
         font-weight: 400,
         text-align: justify,
-        margin-bottom: $planck * 2
+        margin-bottom: $planck * 2,
+        color: inherit
+    ),
+    li: (
+        font-size: $planck * 3,
+        line-height: $planck * 4.5,
+        font-weight: 400,
+        text-align: justify,
+        margin-bottom: $planck * 1,
+        color: inherit
     ),
 );
 
@@ -56,6 +71,7 @@ $font-info: (
     font-weight: map-get($map, font-weight);
     text-align: map-get($map, text-align);
     margin-bottom: map-get($map, margin-bottom);
+    color: map-get($map, color);
 }
 
 @each $size, $value in $font-info {
@@ -71,6 +87,23 @@ $font-info: (
 
     b, strong {
         font-weight: 600;
+    }
+
+    li {
+        width: calc(90vw - 2rem);
+        @include media-breakpoint-up(sm) {
+            width: calc(65vw - 2rem);
+        }
+        @include media-breakpoint-up(md) {
+            width: calc(50vw - 2rem);
+        }
+        @include media-breakpoint-up(lg) {
+            width: calc(38vw - 2rem);
+        }
+        @include media-breakpoint-up(xl) {
+            width: calc(30vw - 2rem);
+        }
+        text-align: justify;
     }
 
     * {
@@ -89,4 +122,11 @@ $font-info: (
         }
         text-align: justify;
     }
+}
+
+h5 {
+    background-color: $primary;
+    margin-top: $planck * 10;
+    padding-top: $planck * 16;
+    padding-right: $planck;
 }

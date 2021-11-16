@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     
     
-    <link rel="stylesheet" href="https://bykoga.com/mystyles.5dab7d5dc4f9a2237226ccea24fd1a831deeb96be2993dcf38f8527aca89ac80.css">
+    <link rel="stylesheet" href="https://bykoga.com/mystyles.cea408c98c1530e1f4a66b75c31fd69f39a7d2c52f7c6ecbc37c943c658a2e8a.css">
     
     
     
@@ -100,26 +100,8 @@
                         <ul class="dropdown-menu dropdown-menu-end text-end" aria-labelledby="navbarDropdown">
                             
                             <li>
-                                <a class="dropdown-item" href="/pt-br/categories/">
-                                    
-                                </a>
-                            </li>
-                            
-                            <li>
-                                <a class="dropdown-item" href="/pt-br/categories/inspiration">
-                                    inspiration
-                                </a>
-                            </li>
-                            
-                            <li>
-                                <a class="dropdown-item" href="/pt-br/categories/minimalism">
-                                    minimalism
-                                </a>
-                            </li>
-                            
-                            <li>
-                                <a class="dropdown-item" href="/pt-br/categories/retro">
-                                    retro
+                                <a class="dropdown-item" href="/pt-br/categories/old">
+                                    old
                                 </a>
                             </li>
                             
@@ -134,24 +116,6 @@
                             tags
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end text-end" aria-labelledby="navbarDropdown">
-                            
-                            <li>
-                                <a class="dropdown-item" href="/pt-br/tags/clean">
-                                    clean
-                                </a>
-                            </li>
-                            
-                            <li>
-                                <a class="dropdown-item" href="/pt-br/tags/old">
-                                    old
-                                </a>
-                            </li>
-                            
-                            <li>
-                                <a class="dropdown-item" href="/pt-br/tags/tech">
-                                    tech
-                                </a>
-                            </li>
                             
                         </ul>
                     </li>
@@ -168,6 +132,10 @@
     <h2 id="page-subtitle" class="text-center display-5 fw-bold">mim, minhas coisas, e esse site</h2>
     <span class="ply-2"></span>
     <code class="display-1 text-primary">~~</code>
+    <div>
+        
+    </div>
+    
 </section>
     <div class="text-container text-center">
         <h1 id="ok">ok,</h1>
@@ -184,7 +152,36 @@
 
     </div>
     <code class="display-1 text-primary">~~</code>
+
+    <div id="scrollTop" class="bg-light pl-1 rounded" style="display: none">
+        <button onclick="topFunction()" class="btn btn-sm border text-primary border-1 border-primary neu">
+            top
+        </button>
+    </div>
 </section>
+
+<script>
+    
+    mybutton = document.getElementById("scrollTop");
+
+    
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+    if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        mybutton.style.display = "inline-flex";
+    } else {
+        mybutton.style.display = "none";
+    }
+    }
+
+    
+    function topFunction() {
+    document.body.scrollTop = 0; 
+    document.documentElement.scrollTop = 0; 
+    }
+</script>
+
 
         </div></div> 
 

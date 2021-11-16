@@ -1,8 +1,10 @@
 <div class="gallery-single rounded neu">
     {{ if .Params.thumb }}
+    <a href="{{ .Permalink }}#post">
         {{ $image := $.Page.Resources.GetMatch .Params.thumb }}
         {{ .Scratch.Set "lowres-image" ($image.Fill "1024x1024 jpg q70 center") }}
         <div class="gallery-single-image rounded" style='background-image: url({{ (.Scratch.Get "lowres-image").Permalink }}); background-position: center'></div>
+    </a>
     {{ end }}
     <a href="{{ .Permalink }}#post" class="gallery-single-link btn btn-light text-primary rounded"><code>{{ .Params.title }} -></code></a>
 </div>   
