@@ -4,7 +4,7 @@
     <h2 id="page-subtitle" class="text-center display-5 fw-bold">{{ .subtitle }}</h2>
     <span class="ply-2"></span>
     {{ partial "divider.html" }}
-    <div>
+    <div id="page-links">
         {{ range .buttons }}
         <a href="#{{ . }}" class="d-inline-flex btn neu text-primary m-1"><h3 class="fw-bold pb-0 mb-0">{{ . }}</h3></a>
         {{ end }}

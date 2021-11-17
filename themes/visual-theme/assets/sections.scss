@@ -157,3 +157,9 @@ $gallery-size-3: calc(100vw - #{$planck} * 4);
         min-height: 80vh;
     }
 }
+
+#page-links {
+    @include media-breakpoint-down(xl) {
+        display: grid;
+    }
+}

@@ -49,9 +49,7 @@ buttons: ["introduction", "education", "leadership", "community", "skills", "awa
 
 ---
 
-## as you can see, i'm good at
-
-# math, physics, computer science...
+## as you can see, i'm good at math, physics, computer science...
 
 ###### ...or just stem, in general (✿◡‿◡)
 
@@ -83,8 +81,42 @@ buttons: ["introduction", "education", "leadership", "community", "skills", "awa
 
 #### the institution gave me a full-ride which included food, clothing, transportation, and even an apartment with other like-minded students!
 
-#### i then started participating in an honors class, focusing in math olympiads
+<br>
+
+- i then started participating in an honors class, focusing in math olympiads. in 2020, i began the process of studying for the SAT / TOEFL exams
 
 <br>
 
+#### my tests were rescheduled several times due to the pandemic. uncertainty was the norm as no one knew what would happen to us, students.
+
+#### nonetheless, **i remained positive**, studying several hours per day. the hard work paid off!
+
 ---
+
+### i scored
+
+## **1550 / 1600**
+
+### on the SAT and
+
+## **111 / 120**
+
+### on the TOEFL
+
+---
+
+## of course, **good scores aren't enough.**
+
+### a good profile requires multiple qualities!
+
+##### leadership
+
+
+
+##### community
+
+##### skills
+
+##### awards
+
+##### message
