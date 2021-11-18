@@ -136,3 +136,7 @@ h5 {
 .text-bs {
     text-shadow: 1px 1px 0px $dark;
 }
+
+.dont-justify * {
+    text-align: left !important;
+}

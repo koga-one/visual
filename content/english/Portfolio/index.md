@@ -285,14 +285,6 @@ buttons: ["introduction", "education", "leadership", "community", "skills", "awa
 
 ---
 
-###### <span class="px-1" style="background-color:#EABF62">intrapersonal</span>
-
-<p class="text-end"><i>understanding yourself, what you feel, and what you want</i></p>
-
-<span class="h4"><b>meditation</b></span>
-
----
-
 ###### <span class="px-1 text-light" style="background-color:#C8564E">bodily-kinesthetic</span>
 
 <p class="text-end"><i>coordinating your mind with your body</i></p>
@@ -361,6 +353,16 @@ buttons: ["introduction", "education", "leadership", "community", "skills", "awa
 <span class="h4"><b>leadership</b></span> - this isn't a hobby, just a personal skill. as i've previously mentioned, i am naturally attracted towards leadership. i'm not sure why, but people also tend to put me in a leader spot implicitly
 
 <span class="h4"><b>coaching</b></span> - recently i've been coaching some people on Overwatch, a competitive 6v6 game that i play a lot. coaching is about helping and understanding others while ensuring your point is correctly understood. it is very fun!
+
+---
+
+###### <span class="px-1" style="background-color:#EABF62">intrapersonal</span>
+
+<p class="text-end"><i>understanding yourself, what you feel, and what you want</i></p>
+
+<span class="h4"><b>meditation</b></span> - whenever i need to calm down and focus i meditate. it is such a simple yet effective tool for calming down! i've yet to try long periods such as over an hour. i'll do it someday
+
+<span class="h4"><b>"diary"</b></span> - although i don't exactly have a diary, i do use an app called 1SE. it allows me to record one second of footage per day as a way of keeping track of the year. it is very fun!
 
 ---
 
@@ -433,6 +435,112 @@ buttons: ["introduction", "education", "leadership", "community", "skills", "awa
 
 - my personal instagram @real.koga used to be my photo gallery, although i've archived the photos
 
+---
+
+###### <span class="px-1 text-light" style="background-color:gray">other stuff</span>
+
+<span class="h4"><b>chess</b></span> - i'm pretty mediocre in chess, although i've studied it for a while. i know the basics and some common strategies, although i'm beat by my younger brother 95% of the time
+
+<span class="h4"><b>digital content</b></span> - i have multiple social media accounts that i try to gather followers just for the business / challenge aspect
+
+<span class="h4"><b>video editing</b></span> - i am pretty used to Resolve Studio, a great free program for editing videos. i've used it before for personal and school projects
+
 ##### awards
 
+## here's a list of all my scientific* awards!
+
+<p class="text-center">they're classified between <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span>, <span class="px-1 text-light" style="background-color:#7A889B"><b>silver</b></span>, <span class="px-1 text-light" style="background-color:#C8564E"><b>bronze</b></span>, and <span class="px-1 text-light" style="background-color:#74514F"><b>honorary mention</b></span>, as well as <span class="px-1 text-light" style="background-color:#252A4A"><b>international</b></span>, <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span>, and <span class="px-1" style="background-color:#7FD4D5"><b>state</b></span></p>
+
+---
+
+<div class="dont-justify">
+
+<span class="h4"><b>2014 - 6th grade</b></span>
+
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - matemática sem fronteiras
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - canguru matemático sem fronteiras
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - olimpíada de matematica do poliedro
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1 text-light" style="background-color:#7A889B"><b>silver</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>computer science</b></span> - olimpíada brasileira de informatica
+- <span class="px-1" style="background-color:#7FD4D5"><b>state</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>physics</b></span> - olimpíada paulista de física
+
+<span class="h4"><b>2015 - 7th grade</b></span>
+
+- <span class="px-1 text-light" style="background-color:#252A4A"><b>international</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - olimpíada de matemática rioplatense
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - canguru matemático sem fronteiras
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - olimpíada de matematica do poliedro
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1 text-light" style="background-color:#C8564E"><b>bronze</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>astronomy</b></span> - olimpíada brasileira de astronomia
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1 text-light" style="background-color:#74514F"><b>honorary mention</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>computer science</b></span> - olimpíada brasileira de informática
+- <span class="px-1" style="background-color:#7FD4D5"><b>state</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - olimpíada paulista de matemática
+- <span class="px-1" style="background-color:#7FD4D5"><b>state</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>physics</b></span> - olimpíada paulista de física
+
+<span class="h4"><b>2016 - 8th grade</b></span>
+
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - matemática sem fronteiras nacional
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - canguru matemático sem fronteiras
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - olimpíada de matematica do poliedro
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>astronomy</b></span> - olimpíada brasileira de astronomia & astronáutica
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>physics</b></span> - olimpíada brasileira de física
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1 text-light" style="background-color:#7A889B"><b>silver</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>robotics</b></span> - olimpíada brasileira de robótica
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1 text-light" style="background-color:#C8564E"><b>bronze</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - olimpíada brasileira de matemática
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1 text-light" style="background-color:#C8564E"><b>bronze</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>computer science</b></span> - olimpíada brasileira de informática
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1 text-light" style="background-color:#C8564E"><b>bronze</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>chemistry</b></span> - olimpíada brasileira de química
+- <span class="px-1" style="background-color:#7FD4D5"><b>state</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - matemática sem fronteiras regional
+- <span class="px-1" style="background-color:#7FD4D5"><b>state</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - olimpíada de matematica da unicamp
+
+<span class="h4"><b>2017 - 9th grade</b></span>
+
+- <span class="px-1 text-light" style="background-color:#252A4A"><b>international</b></span> <span class="px-1 text-light" style="background-color:#7A889B"><b>silver</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - olimpíada de matemática lusófona
+- <span class="px-1 text-light" style="background-color:#252A4A"><b>international</b></span> <span class="px-1 text-light" style="background-color:#C8564E"><b>bronze</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - olimpíada de matemática rioplatense
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - brasileira de matemática das escolas públicas
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - canguru matemático sem fronteiras
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - olimpíada de matematica do poliedro
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - matemática sem fronteiras nacional
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1 text-light" style="background-color:#7A889B"><b>silver</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>physics</b></span> - olimpíada brasileira de física
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1 text-light" style="background-color:#7A889B"><b>silver</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>robotics</b></span> - olimpíada brasileira de robótica
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1 text-light" style="background-color:#74514F"><b>honorary mention</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>chemistry</b></span> - olimpíada brasileira de química
+- <span class="px-1" style="background-color:#7FD4D5"><b>state</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - olimpíada paulista de matemática
+- <span class="px-1" style="background-color:#7FD4D5"><b>state</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - matemática sem fronteiras regional
+- <span class="px-1" style="background-color:#7FD4D5"><b>state</b></span> <span class="px-1 text-light" style="background-color:#7A889B"><b>silver</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>physics</b></span> - olimpíada paulista de física
+
+<span class="h4"><b>2018 - 10th grade</b></span>
+
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - canguru matemático sem fronteiras
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1 text-light" style="background-color:#7A889B"><b>silver</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>astronomy</b></span> - olimpíada brasileira de astronomia
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1 text-light" style="background-color:#C8564E"><b>bronze</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - olimpíada brasileira de matemática
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1 text-light" style="background-color:#74514F"><b>honorary mention</b></span> physics - olimpíada brasileira de física
+- <span class="px-1" style="background-color:#7FD4D5"><b>state</b></span> <span class="px-1 text-light" style="background-color:#7A889B"><b>silver</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - olimpíada paulista de matemática
+- <span class="px-1" style="background-color:#7FD4D5"><b>state</b></span> <span class="px-1 text-light" style="background-color:#C8564E"><b>bronze</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - olimpíada cearense de matemática
+
+<span class="h4"><b>2019 - 11th grade</b></span>
+
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1" style="background-color:#FFEC85"><b>gold</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - canguru matemático sem fronteiras
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1 text-light" style="background-color:#C8564E"><b>bronze</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - brasileira de matemática das escolas públicas
+- <span class="px-1 text-light" style="background-color:#3870A5"><b>national</b></span> <span class="px-1 text-light" style="background-color:#74514F"><b>honorary mention</b></span> <span class="px-1" style="background-color:#F5FFE8"><b>math</b></span> - olimpíada brasileira de matemática
+
+<span class="h4"><b>2020 - 12th grade</b></span>
+
+- nothing :P
+
+</div>
+
+---
+
+<p class="text-center">*(i don't mention sports because there's so many of them, and to be honest they're from smaller events, not really worth mentioning)</p>
+
 ##### message
+
+<h2 class="text-end">so, after checking my portfolio...</h2>
+
+## (●'◡'●)
+
+<h2 class="text-start">...you want to send a message?</h2>
+
+---
+
+### i'll gladly listen to what you have to say!
+
+### just send me a message below, and i'll reply as fast as possible
+
+---
+
+<div data-tf-widget="fCB6XorO" style="width:100%;height:70vh;"></div><script src="//embed.typeform.com/next/embed.js"></script>
