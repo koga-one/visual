@@ -81,6 +81,8 @@ $font-info: (
 }
 
 .text-container {
+    text-overflow: "-";
+
     hr {
         margin: $planck * 8 0;
     }

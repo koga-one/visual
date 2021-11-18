@@ -119,7 +119,7 @@ buttons: ["introduction", "education", "leadership", "community", "skills", "awa
 
 <br>
 
-<h3>(〃￣︶￣)人(￣︶￣〃)</h3>
+<h4 class="text-center">(〃￣︶￣)人(￣︶￣〃)</h4>
 
 <br>
 
@@ -135,7 +135,7 @@ buttons: ["introduction", "education", "leadership", "community", "skills", "awa
 
 ---
 
-- i am the co-founder of Good Luck Collective as well, a gamedev group (2021)
+- i am the co-founder of Good Luck Collective as well, a game dev group (2021)
 
 #### i help with the coding, art, and design of the games
 
@@ -267,7 +267,7 @@ buttons: ["introduction", "education", "leadership", "community", "skills", "awa
 
 ---
 
-## specialization is the norm nowadays!
+## nowadays, people prefer to focus on just a few subjects
 
 ---
 
@@ -289,11 +289,35 @@ buttons: ["introduction", "education", "leadership", "community", "skills", "awa
 
 <p class="text-end"><i>understanding yourself, what you feel, and what you want</i></p>
 
+<span class="h4"><b>meditation</b></span>
+
 ---
 
 ###### <span class="px-1 text-light" style="background-color:#C8564E">bodily-kinesthetic</span>
 
 <p class="text-end"><i>coordinating your mind with your body</i></p>
+
+<span class="h4"><b>baseball</b></span> - this was the first sport i've ever experienced. i was around 6yrs old when i started, training for around 5yrs. i was very young, so there wasn't that spark of competitiveness inside me yet. still, baseball was essential for me to develop the strength in my right arm and overall coordination
+
+- i've won a couple of trophies and medals (~5 trophies, ~15 medals. i can't remember correctly)
+
+<span class="h4"><b>handball</b></span> - the sport that i play the best. i started right after i stopped playing baseball, and only stopped recently thanks to COVID. in 2021 i was going to be the captain of the team of my high school...
+
+- i've won a couple of medals and tournaments!
+
+<span class="h4"><b>volleyball</b></span> - used to be my favorite sport during 8th and 9th grade. considering i'm very short, it was always fun to jump above everyone else and be able to smash the ball. together with my speed and coordination, i've already partaken in all roles of the team (libero as well, of course)
+
+<span class="h4"><b>table-tennis</b></span> - the sport that i spend the most time playing nowadays. i train around 2 hours per week (not much, honestly). i started in late 2020, and i've improved decently in one year
+
+<span class="h4"><b>tennis</b></span> - another sport that i play nowadays. honestly, i don't enjoy tennis that much, but that's probably just because i suck at it
+
+<span class="h4"><b>judo</b></span> - i plan to start judo classes really soon!
+
+<span class="h4"><b>ambidextrousness</b></span> - fun fact: i'm ambidextrous! i am naturally left-handed, but nowadays i can use both arms pretty effectively. it's all thanks to two factors. firstly, my baseball 先生 ("sensei", which means teacher in japanese), for some reason, taught me to throw the ball with my right arm. because baseball was my first sport, i've learned since young to throw with my right, but never with my left. the second reason is that, when i was young, i broke my left arm days before some school exams. i then decided to learn how to write with my right arm, so i could take the tests nonetheless. it worked pretty well!
+
+- i use my left arm for fine movement. this includes writing, painting, drawing (anything artistic), holding the fork, etc.
+- i use my right arm for tasks that require strength, such as most sports
+- (these rules don't always apply. i play table tennis with my left, use the skateboard with my left, mouse and scissors with my right, etc.)
 
 ---
 
@@ -301,11 +325,32 @@ buttons: ["introduction", "education", "leadership", "community", "skills", "awa
 
 <p class="text-end"><i>finding the right words to express what you mean</i></p>
 
+<span class="h4"><b>writing skills</b></span> - i've always been pretty decent at writing. since young teachers have complimented my skills. nowadays, whenever i need to release stress, writing is my first option (i write the best when i'm emotionally disturbed, idk)
+
+- i've written a ton of poems and chronicles
+- specially, i'm currently writing an adventure game "thoughts that pass by". it has a complex storyline!
+
+<span class="h4"><b>reading</b></span> - i've been incentivated to read since young by my parents. for that reason, i've always been keen on books, specially the classical ones. this isn't a "skill" exactly, mostly just a hobby. i don't speed read, i just enjoy books
+
+- i really like "Sapiens" and the Percy Jackson series
+
+<span class="h4"><b>languages</b></span> - one of my lifetime goals is to know at least 5 languages fluently. slowly but surely i'm getting there! thanks to the internet, it isn't hard to learn for free / alone
+
+- **portuguese**, fluent (mother language, nothing special really)
+- **english**, fluent (i've been studying english since around 10yrs old. nowadays i can think in english like it is my mother language)
+- **japanese**, beginner (i'm currently studying japanese! hopefully i'll be advanced in a year or two, let's see how it goes. i might even translate this website to japanese if possible)
+- **spanish**, beginner (i used to have spanish classes when i was younger, so i know a little bit. moreover, portuguese and spanish have a lot in common, so it isn't impossible to understand sentences half of the time)
+- **toki pona**, beginner (...just search about toki pona. it is a pretty cool language. i don't know if i'll ever memorize every word in it, but i know a few already)
+
 ---
 
 ###### <span class="px-1 text-light" style="background-color:#66397D">musical</span>
 
 <p class="text-end"><i>discerning sounds, their pitch, tone, rhythm, and timbre</i></p>
+
+<span class="h4"><b>musical composition</b></span> - i occasionally compose music for my games. granted, the music isn't impressive. still, it's something that i <b>can</b> do, if necessary
+
+<span class="h4"><b>violin</b></span> - i plan to start violin classes really soon, let's see how it goes!
 
 ---
 
@@ -313,11 +358,45 @@ buttons: ["introduction", "education", "leadership", "community", "skills", "awa
 
 <p class="text-end"><i>sensing people's feelings and motives</i></p>
 
+<span class="h4"><b>leadership</b></span> - this isn't a hobby, just a personal skill. as i've previously mentioned, i am naturally attracted towards leadership. i'm not sure why, but people also tend to put me in a leader spot implicitly
+
+<span class="h4"><b>coaching</b></span> - recently i've been coaching some people on Overwatch, a competitive 6v6 game that i play a lot. coaching is about helping and understanding others while ensuring your point is correctly understood. it is very fun!
+
 ---
 
 ###### <span class="px-1" style="background-color:#7FD4D5">logical-mathematical</span>
 
 <p class="text-end"><i>quantifying things, making hypotheses and proving them</i></p>
+
+<span class="h4"><b>game dev</b></span> - i started coding thanks to minecraft's coding blocks update in late 2012. soon after i was already trying to code my own games in drag 'n drop engines. unsatisfied, i eventually gathered courage to learn C# and face the steep learning curve of Unity. self taught, i've published a couple of games on itch.io and google play by myself, as well as with my game dev group
+
+- currently working on a big game called **thoughts that pass by**. it'll be published on steam, google play, itch.io, and more?
+
+<span class="h4"><b>web dev</b></span> - while learning coding in general, i eventually stumbled upon web tools - JS, CSS, HTML, and more. i've always wanted to create my own website, and so i started learning all about these different frameworks and technologies. 
+
+- my first free website called Young Minds was my first experience with web development. It was made with Blogger, and it was simply a personal blog
+- my next project was called The Thought Compiler, a website that had the purpose of showing my web dev / web design skills. it had a short life, however, as i soon realized that i didn't want to use Wordpress
+- my current project, by.koga, is what you see in front of your eyes. nowadays i prefer a more raw, techy experience, using tools such as Hugo, terminal tools, and Github Pages.
+- i've also designed three other websites: NOIC, Dupla, and Nery. i already mentioned them up somewhere, go take a look
+
+<span class="h4"><b>coding</b></span> - just coding information in general
+
+- i started learning coding thanks to codecademy (thank you!) when i was 12yrs old
+- i've already used C, C++, C#, JS, Python, PHP, Ruby, and more for my projects
+
+<span class="h4"><b>puzzle-solving</b></span> - while everyone requires and uses puzzle-solving skills daily, it's a whole different matter to learn about techniques to solve problems and challange yourself daily with mind boggling conundrums
+
+- i started tackling puzzles with my father when i was just a little kid and the DSi launched. by playing Professor Layton i became enthralled with the feeling of cogs turning inside my brain. the "aha!" moments defined me forever
+- nowadays i create puzzles myself, challenging friends and online followers. sometimes i even get challenges back
+
+<span class="h4"><b>scientific Olympiads</b></span> - as an extension of puzzle-solving, scientific Olympiads offered me a more competitive feeling of solving problems. they pretty much defined my entire school trajectory, leading me to change schools and find multiple opportunities of growth
+
+- all of the awards are in the [awards](#awards) section
+- as a curiosity, if you add the scientific medals that me and my siblings have earned, it currently surpasses one hundred!
+
+<span class="h4"><b>economy</b></span> - i started learning about finances, economy, and stock market just recently (late 2021). this is mostly a hobby of mine, not exactly a skill
+
+- i have yet to gain actual money (￣_￣|||)
 
 ---
 
@@ -327,7 +406,7 @@ buttons: ["introduction", "education", "leadership", "community", "skills", "awa
 
 <br>
 
-<span class="h4"><b>traditional art</b></span> - i spent years studying traditional art in an art studio near my house, focusing on paper media and architecture subjects mostly. early 2020 i started tackling human anatomy, drawing poses, faces, etc.
+<span class="h4"><b>traditional art</b></span> - i spent 5 years studying traditional art in an art studio near my house, focusing on paper media and architecture subjects mostly. early 2020 i started tackling human anatomy, drawing poses, faces, etc.
 
 - drawing (pencil, ink pen)
 - coloring (colored pencil)
@@ -350,7 +429,7 @@ buttons: ["introduction", "education", "leadership", "community", "skills", "awa
 - figma (very useful for poster-like content)
 - inkscape (the best free software for vectors that i know)
 
-<span class="h4"><b>photography</b></span> - i've always been a fan of photography, studying composition, color theory, and more since young. (it's important to notice the difference between simply taking photos and being a photographer)
+<span class="h4"><b>photography</b></span> - i've always been a fan of photography, studying composition, color theory, and more since young (it's important to notice the difference between simply taking photos and being a photographer). i have this routine of taking a short video everyday
 
 - my personal instagram @real.koga used to be my photo gallery, although i've archived the photos
 
