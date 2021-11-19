@@ -25,6 +25,11 @@
                 weight = 200
                 name = "Links"
                 url = "/links"
+            [[pt-br.menu.main]]
+                parent = "pages"
+                weight = 300
+                name = "Contato"
+                url = "https://5hlun88awqk.typeform.com/to/fCB6XorO"
 
 
 [en]
@@ -54,3 +59,8 @@
                 weight = 200
                 name = "Links"
                 url = "/links"
+            [[en.menu.main]]
+                parent = "pages"
+                weight = 300
+                name = "Contact"
+                url = "https://5hlun88awqk.typeform.com/to/fCB6XorO"
