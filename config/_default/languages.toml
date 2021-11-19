@@ -24,7 +24,7 @@
                 parent = "pages"
                 weight = 200
                 name = "Links"
-                url = "/links"
+                url = "https://linktr.ee/bykoga"
             [[pt-br.menu.main]]
                 parent = "pages"
                 weight = 300
@@ -58,7 +58,7 @@
                 parent = "pages"
                 weight = 200
                 name = "Links"
-                url = "/links"
+                url = "https://linktr.ee/bykoga"
             [[en.menu.main]]
                 parent = "pages"
                 weight = 300
