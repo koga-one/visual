@@ -11,7 +11,7 @@ draft: false
 
 # Organization
 layout: "page"
-weight: 1
+weight:
 buttons: ["introduction", "education", "leadership", "community", "skills", "awards", "message"]
 
 thumb: "images/thumb.png"
@@ -32,7 +32,7 @@ thumb: "images/thumb.png"
 
 #### (〃￣︶￣)人(￣︶￣〃)
 
-##### **education** 
+##### **education**
 
 ## in 2021 i was accepted into
 

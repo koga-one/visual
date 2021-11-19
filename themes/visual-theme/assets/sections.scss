@@ -2,7 +2,7 @@ $post-row-1: calc(100vmin - #{$planck} * 4);
 $post-column-1: calc(100vmin - #{$planck} * 4);
 $gallery-size-1: calc(100vmin - #{$planck} * 4);
 
-$post-row-2: 1fr;
+$post-row-2: 30vh;
 $post-column-2: calc(100vw - #{$planck} * 4);
 $gallery-size-2: calc(100vw - #{$planck} * 4);
 
@@ -22,20 +22,16 @@ $gallery-size-3: calc(100vw - #{$planck} * 4);
     grid-template-columns: $post-column-1;
     
     @include media-breakpoint-up(sm) {
-        width: $gallery-size-2;
-        height: calc(100vh - 10 * #{$planck});
         grid-template-rows: $post-row-2;
         grid-auto-rows: $post-row-2;
-        grid-template-columns: $post-column-2;
-        grid-auto-flow: row;
     }
 
     @include media-breakpoint-up(md) {
         width: $gallery-size-3;
         grid-template-rows: $post-row-3;
-        grid-template-columns: $post-column-3;
+        grid-auto-rows: $post-row-3;
+        grid-template-columns: repeat(4, $post-column-3);
         grid-auto-columns: $post-column-3;
-        grid-auto-flow: column;
     }
 }
 

@@ -8,7 +8,7 @@
     [pt-br.menu]    
         [[pt-br.menu.main]]
             weight = 0
-            name = "Páginas"
+            name = "Importante"
             identifier = "pages"
             [[pt-br.menu.main]]
                 parent = "pages"
@@ -37,7 +37,7 @@
     [en.menu]
         [[en.menu.main]]
             weight = 0
-            name = "Pages"
+            name = "Important"
             identifier = "pages"
             [[en.menu.main]]
                 parent = "pages"

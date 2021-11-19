@@ -15,4 +15,7 @@ weight:
 
 # Meta
 summary: 
+
+# Thumbnail / Featured
+thumb: "images/Placeholder.jpg"
 ---
