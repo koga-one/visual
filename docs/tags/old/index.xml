@@ -1,19 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>old on by.koga</title>
-    <link>https://bykoga.com/tags/old/</link>
-    <description>Recent content in old on by.koga</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 13 Jul 2021 15:32:43 -0300</lastBuildDate><atom:link href="https://bykoga.com/tags/old/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello World</title>
-      <link>https://bykoga.com/retro/hello-world/</link>
-      <pubDate>Tue, 13 Jul 2021 15:32:43 -0300</pubDate>
-      
-      <guid>https://bykoga.com/retro/hello-world/</guid>
-      <description>by.kogaby.koga is a wide-areadesign information retrievalinitiative aiming to give universalaccess to a large universe of design ideas.Everything there is online aboutby.koga is linked directly or indirectlyto this document, including an executivesummary of the project.What&#39;s out there? Pointers to by.koga&#39;s online information,resources, links, etc.Help on the website you&#39;re accessingContent A list of by.</description>
-    </item>
-    
-  </channel>
-</rss>

@@ -1,28 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>clean on by.koga</title>
-    <link>https://bykoga.com/tags/clean/</link>
-    <description>Recent content in clean on by.koga</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 06 Sep 2021 21:37:35 -0300</lastBuildDate><atom:link href="https://bykoga.com/tags/clean/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Prompts</title>
-      <link>https://bykoga.com/inspiration/prompts/</link>
-      <pubDate>Mon, 06 Sep 2021 21:37:35 -0300</pubDate>
-      
-      <guid>https://bykoga.com/inspiration/prompts/</guid>
-      <description>when was the last time that you looked up at the sky?#particles-js {height: 100vh;background-color: #09162b;}.prompt-center {position: absolute;right: 50%;top: 50%;transform: translate(50%, 50%);text-align: center;color: #09162b;text-shadow: 1px 1px 0px #f5f7d5;}particlesJS(&#34;particles-js&#34;, {&#34;particles&#34;:{&#34;number&#34;:{&#34;value&#34;:80,&#34;density&#34;:{&#34;enable&#34;:true,&#34;value_area&#34;:800}},&#34;color&#34;:{&#34;value&#34;:&#34;#f5f7d5&#34;},&#34;shape&#34;:{&#34;type&#34;:&#34;star&#34;,&#34;stroke&#34;:{&#34;width&#34;:0,&#34;color&#34;:&#34;#000000&#34;},&#34;polygon&#34;:{&#34;nb_sides&#34;:5},&#34;image&#34;:{&#34;src&#34;:&#34;img/github.svg&#34;,&#34;width&#34;:100,&#34;height&#34;:100}},&#34;opacity&#34;:{&#34;value&#34;:0.5,&#34;random&#34;:false,&#34;anim&#34;:{&#34;enable&#34;:false,&#34;speed&#34;:1,&#34;opacity_min&#34;:0.1,&#34;sync&#34;:false}},&#34;size&#34;:{&#34;value&#34;:3,&#34;random&#34;:true,&#34;anim&#34;:{&#34;enable&#34;:false,&#34;speed&#34;:40,&#34;size_min&#34;:0.1,&#34;sync&#34;:false}},&#34;line_linked&#34;:{&#34;enable&#34;:true,&#34;distance&#34;:150,&#34;color&#34;:&#34;#ffffff&#34;,&#34;opacity&#34;:0.4,&#34;width&#34;:1},&#34;move&#34;:{&#34;enable&#34;:true,&#34;speed&#34;:3,&#34;direction&#34;:&#34;none&#34;,&#34;random&#34;:true,&#34;straight&#34;:false,&#34;out_mode&#34;:&#34;bounce&#34;,&#34;bounce&#34;:false,&#34;attract&#34;:{&#34;enable&#34;:false,&#34;rotateX&#34;:600,&#34;rotateY&#34;:1200}}},&#34;interactivity&#34;:{&#34;detect_on&#34;:&#34;canvas&#34;,&#34;events&#34;:{&#34;onhover&#34;:{&#34;enable&#34;:true,&#34;mode&#34;:&#34;bubble&#34;},&#34;onclick&#34;:{&#34;enable&#34;:true,&#34;mode&#34;:&#34;push&#34;},&#34;resize&#34;:true},&#34;modes&#34;:{&#34;grab&#34;:{&#34;distance&#34;:400,&#34;line_linked&#34;:{&#34;opacity&#34;:1}},&#34;bubble&#34;:{&#34;distance&#34;:400,&#34;size&#34;:4,&#34;duration&#34;:2,&#34;opacity&#34;:8,&#34;speed&#34;:3},&#34;repulse&#34;:{&#34;distance&#34;:200,&#34;duration&#34;:0.4},&#34;push&#34;:{&#34;particles_nb&#34;:4},&#34;remove&#34;:{&#34;particles_nb&#34;:2}}},&#34;retina_detect&#34;:true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = &#39;absolute&#39;; stats.domElement.style.left = &#39;0px&#39;; stats.domElement.style.top = &#39;0px&#39;; document.body.appendChild(stats.domElement); count_particles = document.querySelector(&#39;.js-count-particles&#39;); update = function() { stats.</description>
-    </item>
-    
-    <item>
-      <title>Singular</title>
-      <link>https://bykoga.com/minimalism/singular/</link>
-      <pubDate>Thu, 05 Aug 2021 23:57:14 -0300</pubDate>
-      
-      <guid>https://bykoga.com/minimalism/singular/</guid>
-      <description>.quote {text-align: center;transform: translate(50%, -57%);z-index: 100;}#quote {}#quote:after {content: &#34;singular&#34;;color: black;text-shadow: 2px 2px 0px magenta;animation: quotes1 20s 2s linear,quotes2 20s 22s linear,quotes3 20s 42s linear,quotes4 20s 62s linear,quotes5 20s 82s linear,quotes6 20s 102s linear,quotes7 20s 122s linear,quotes8 20s 142s linear,quotes9 20s 162s linear,quotes10 20s 182s linear;}@keyframes quotes1 {0% { content: &#34;</description>
-    </item>
-    
-  </channel>
-</rss>

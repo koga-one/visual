@@ -1,19 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>tech on by.koga</title>
-    <link>https://bykoga.com/pt-br/tags/tech/</link>
-    <description>Recent content in tech on by.koga</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 13 Jul 2021 15:32:43 -0300</lastBuildDate><atom:link href="https://bykoga.com/pt-br/tags/tech/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello World</title>
-      <link>https://bykoga.com/pt-br/retro/hello-world/</link>
-      <pubDate>Tue, 13 Jul 2021 15:32:43 -0300</pubDate>
-      
-      <guid>https://bykoga.com/pt-br/retro/hello-world/</guid>
-      <description>by.kogaby.koga é uma iniciativa de larga escala sobre design com o âmbito de dar acesso universal a um grande mundo de ideas sobre design.Tudo que tem online sobre by.koga está linkado direta ou indiretamente a esse documento, incluindoum breve sumário do projeto.O que tem por afora? Direções para informações online sobre recursos, links, etc.Ajuda sobre o site que você está acessandoConteúdo Uma lista de projetos de by.</description>
-    </item>
-    
-  </channel>
-</rss>
