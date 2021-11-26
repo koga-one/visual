@@ -5,6 +5,9 @@ type: "post"
 date: {{ .Date }}
 translationKey: "{{ replace .Name "-" " " | title }}"
 
+# Code
+script: "scripts/main.js"
+
 # Scheduling
 draft: false
 

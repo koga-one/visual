@@ -1,8 +1,8 @@
 <div id="player-single" class="navbar rounded p-0 d-flex justify-content-center">
     <div class="rounded pagination d-flex justify-content-center">
-        {{ if .PrevPage }}
-        {{ if eq .PrevPage.Params.type "post"}}
-        <a class="btn neu enabled fw-bold" href="{{ .PrevPage.Permalink }}#post"><code><| {{ .PrevPage.Title | lower }}</code></a>
+        {{ if .NextPage }}
+        {{ if eq .NextPage.Params.type "post"}}
+        <a class="btn neu enabled fw-bold" href="{{ .NextPage.Permalink }}#post"><code><| {{ .NextPage.Title | lower }}</code></a>
         {{ else }}
         <a class="btn neu disabled"><code><| previous</code></a>
         {{ end }}
@@ -16,9 +16,9 @@
         
         <span class="plx-1"></span>
         
-        {{ if .NextPage }}
-        {{ if eq .NextPage.Params.type "post"}}
-        <a class="btn neu enabled fw-bold" href="{{ .NextPage.Permalink }}#post"><code>{{ .NextPage.Title | lower }} |></code></a>
+        {{ if .PrevPage }}
+        {{ if eq .PrevPage.Params.type "post"}}
+        <a class="btn neu enabled fw-bold" href="{{ .PrevPage.Permalink }}#post"><code>{{ .PrevPage.Title | lower }} |></code></a>
         {{ else }}
         <a class="btn neu disabled"><code>next |></code></a>
         {{ end }}

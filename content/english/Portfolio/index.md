@@ -275,7 +275,7 @@ thumb: "images/thumb.png"
 
 #### this has led to an increase in ignorance (or the perception of it)
 
-#### **i've always strove to be a flexible person.** someone who can understand a multitude of topics, do a little bit of everything, and overall, always be of help
+#### **i've always striven to be a flexible person.** someone who can understand a multitude of topics, do a little bit of everything, and overall, always be of help
 
 ---
 
