@@ -305,6 +305,8 @@ thumb: "images/thumb.png"
 
 <span class="h4"><b>tennis</b></span> - another sport that i play nowadays. honestly, i don't enjoy tennis that much, but that's probably just because i suck at it
 
+<span class="h4"><b>judo</b></span> - i plan to start judo classes really soon!
+
 <span class="h4"><b>ambidextrousness</b></span> - fun fact: i'm ambidextrous! i am naturally left-handed, but nowadays i can use both arms pretty effectively. it's all thanks to two factors. firstly, my baseball 先生 ("sensei", which means teacher in japanese), for some reason, taught me to throw the ball with my right arm. because baseball was my first sport, i've learned since young to throw with my right, but never with my left. the second reason is that, when i was young, i broke my left arm days before some school exams. i then decided to learn how to write with my right arm, so i could take the tests nonetheless. it worked pretty well!
 
 - i use my left arm for fine movement. this includes writing, painting, drawing (anything artistic), holding the fork, etc.
@@ -332,6 +334,7 @@ thumb: "images/thumb.png"
 - **english**, fluent (i've been studying english since around 10yrs old. nowadays i can think in english like it is my mother language)
 - **japanese**, beginner (i'm currently studying japanese! hopefully i'll be advanced in a year or two, let's see how it goes. i might even translate this website to japanese if possible)
 - **spanish**, beginner (i used to have spanish classes when i was younger, so i know a little bit. moreover, portuguese and spanish have a lot in common, so it isn't impossible to understand sentences half of the time)
+- **toki pona**, beginner (...just search about toki pona. it is a pretty cool language. i don't know if i'll ever memorize every word in it, but i know a few already)
 
 ---
 
@@ -340,6 +343,8 @@ thumb: "images/thumb.png"
 <p class="text-end"><i>discerning sounds, their pitch, tone, rhythm, and timbre</i></p>
 
 <span class="h4"><b>musical composition</b></span> - i occasionally compose music for my games. granted, the music isn't impressive. still, it's something that i <b>can</b> do, if necessary
+
+<span class="h4"><b>violin</b></span> - i plan to start violin classes really soon, let's see how it goes!
 
 ---
 
@@ -392,6 +397,10 @@ thumb: "images/thumb.png"
 
 - all of the awards are in the [awards](#awards) section
 - as a curiosity, if you add the scientific medals that me and my siblings have earned, it currently surpasses one hundred!
+
+<span class="h4"><b>economy</b></span> - i started learning about finances, economy, and stock market just recently (late 2021). this is mostly a hobby of mine, not exactly a skill
+
+- i have yet to gain actual money (￣_￣|||)
 
 ---
 
